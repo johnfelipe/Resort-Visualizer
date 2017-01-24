@@ -1,20 +1,20 @@
 ![Resort Visualizer](http://i.imgur.com/ohEL0KO.png)
 
-[![](https://img.shields.io/badge/made%20by-Ferris%20State%20University-blue.svg?style=flat-square)](http://www.ferris.edu/dagd/) [![](https://img.shields.io/badge/made%20for-Pillar%20Workshop-blue.svg?style=flat-square)](http://www.pillarworkshop.com/) [![](https://img.shields.io/badge/engine-Unity-brightgreen.svg?style=flat-square)](https://unity3d.com/) [![](https://img.shields.io/badge/dependencies-WebGL-brightgreen.svg?style=flat-square)](https://docs.unity3d.com/Manual/webgl-gettingstarted.html) [![](https://img.shields.io/badge/issues-0%20open-brightgreen.svg?style=flat-square)](https://github.com/AndrewK9/Resort-Visualizer/issues) [![](https://img.shields.io/badge/license-Attribution%20NonCommercial%204.0-brightgreen.svg?style=flat-square)](https://github.com/AndrewK9/Resort-Visualizer/blob/master/LICENSE)
+[![](https://img.shields.io/badge/made%20by-Ferris%20State%20University-blue.svg?style=flat-square)](http://www.ferris.edu/dagd/) [![](https://img.shields.io/badge/engine-Unity-brightgreen.svg?style=flat-square)](https://unity3d.com/) [![](https://img.shields.io/badge/dependencies-WebGL-brightgreen.svg?style=flat-square)](https://docs.unity3d.com/Manual/webgl-gettingstarted.html) [![](https://img.shields.io/badge/issues-0%20open-brightgreen.svg?style=flat-square)](https://github.com/AndrewK9/Resort-Visualizer/issues) [![](https://img.shields.io/badge/license-NonCommercial%20CC%204-brightgreen.svg?style=flat-square)](https://github.com/AndrewK9/Resort-Visualizer/blob/master/LICENSE)
 
 ## Table of Contents
 1. [Introduction](#introduction)
 1. [Install](#install)
 1. [Usage](#usage)
 1. [Team](#team)
-	- [Team Leader](#team%20leader)
+	- [Team Leader](#team-leader)
 	- [Programmers](#programmers)
 	- [Artists](#artists)
 1. [Screenshots](#screenshots)
-1. [Style Guides](#style%20guides)
-	- [Visual Appeal](#visual%20appeal)
-	- [Variable Prefixes](#variable%20prefixes)
-	- [Using Properties](#using%20properties)
+1. [Style Guide](#style-guide)
+	- [Visual Appeal](#visual-appeal)
+	- [Variable Prefixes](#variable-prefixes)
+	- [Using Properties](#using-properties)
 1. [Contribute](#contribute)
 1. [License](#license)
 
@@ -49,7 +49,7 @@ Brent Perko | Ed Chrzanowski | Cameron Ames | Brad Vriesman | Jole Striegle |
 ## Screenshots
 Currently, this section is barren, as new features are built into the project this section will be updated.
 
-## Style Guides
+## Style Guide
 #### Visual Appeal
 Tabs not spaces, for this project we will be using four spaced tabs when indenting.
 All selection and iteration statements will have a beginning and ending curly brace, including single-line statements.
