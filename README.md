@@ -7,7 +7,7 @@
 1. [Install](#install)
 1. [Usage](#usage)
 1. [Team](#team)
-	- [Team Leader](#team-leader)
+	- [Project Leader](#project-leader)
 	- [Programmers](#programmers)
 	- [Artists](#artists)
 1. [Screenshots](#screenshots)
