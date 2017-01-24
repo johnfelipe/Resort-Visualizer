@@ -1,4 +1,4 @@
-<p style="text-align: center;">
+<p align="center">
 <a href="#"><img src="http://i.imgur.com/ohEL0KO.png"/></a>
 
 <a href="http://www.ferris.edu/dagd/"><img src="https://img.shields.io/badge/made%20by-Ferris%20State%20University-blue.svg?style=flat-square"/></a>
