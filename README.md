@@ -1,7 +1,11 @@
 <p style="text-align: center;">
-![Resort Visualizer](http://i.imgur.com/ohEL0KO.png)
+<a href="#"><img src="http://i.imgur.com/ohEL0KO.png"/></a>
 
-[![](https://img.shields.io/badge/made%20by-Ferris%20State%20University-blue.svg?style=flat-square)](http://www.ferris.edu/dagd/) [![](https://img.shields.io/badge/engine-Unity-brightgreen.svg?style=flat-square)](https://unity3d.com/) [![](https://img.shields.io/badge/dependencies-WebGL-brightgreen.svg?style=flat-square)](https://docs.unity3d.com/Manual/webgl-gettingstarted.html) [![](https://img.shields.io/badge/issues-0%20open-brightgreen.svg?style=flat-square)](https://github.com/AndrewK9/Resort-Visualizer/issues) [![](https://img.shields.io/badge/license-NonCommercial%20CC%204-brightgreen.svg?style=flat-square)](https://github.com/AndrewK9/Resort-Visualizer/blob/master/LICENSE)
+<a href="http://www.ferris.edu/dagd/"><img src="https://img.shields.io/badge/made%20by-Ferris%20State%20University-blue.svg?style=flat-square"/></a>
+<a href="https://unity3d.com/"><img src="https://img.shields.io/badge/engine-Unity-brightgreen.svg?style=flat-square"/></a>
+<a href="https://docs.unity3d.com/Manual/webgl-gettingstarted.html"><img src="https://img.shields.io/badge/dependencies-WebGL-brightgreen.svg?style=flat-square"/></a>
+<a href="https://github.com/AndrewK9/Resort-Visualizer/issues"><img src="https://img.shields.io/badge/issues-0%20open-brightgreen.svg?style=flat-square"/></a>
+<a href="https://github.com/AndrewK9/Resort-Visualizer/blob/master/LICENSE"><img src="https://img.shields.io/badge/license-NonCommercial%20CC%204-brightgreen.svg?style=flat-square"/></a>
 </p>
 
 ## Table of Contents
