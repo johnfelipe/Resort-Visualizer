@@ -3,7 +3,7 @@
 
 <a href="http://www.ferris.edu/dagd/"><img src="https://img.shields.io/badge/made%20by-Ferris%20State%20University-blue.svg?style=flat-square"/></a>
 <a href="https://unity3d.com/"><img src="https://img.shields.io/badge/engine-Unity-brightgreen.svg?style=flat-square"/></a>
-<a href="https://docs.unity3d.com/Manual/webgl-gettingstarted.html"><img src="https://img.shields.io/badge/dependencies-WebGL-brightgreen.svg?style=flat-square"/></a>
+<a href="https://docs.unity3d.com/Manual/webgl-gettingstarted.html"><img src="https://img.shields.io/badge/platform-WebGL-brightgreen.svg?style=flat-square"/></a>
 <a href="https://github.com/AndrewK9/Resort-Visualizer/issues"><img src="https://img.shields.io/badge/issues-0%20open-brightgreen.svg?style=flat-square"/></a>
 <a href="https://github.com/AndrewK9/Resort-Visualizer/blob/master/LICENSE"><img src="https://img.shields.io/badge/license-NonCommercial%20CC%204-brightgreen.svg?style=flat-square"/></a>
 </p>
