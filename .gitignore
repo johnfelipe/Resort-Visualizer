@@ -2,21 +2,19 @@
 # Unity generated #
 # =============== #
 Temp/
-Obj/
-UnityGenerated/
 Library/
-Assets/AssetStoreTools*
 
 # ===================================== #
 # Visual Studio / MonoDevelop generated #
 # ===================================== #
 ExportedObj/
+obj/
 *.svd
 *.userprefs
-*.csproj
+/*.csproj
 *.pidb
 *.suo
-*.sln
+/*.sln
 *.user
 *.unityproj
 *.booproj
@@ -29,6 +27,5 @@ ExportedObj/
 ._*
 .Spotlight-V100
 .Trashes
-Icon?
 ehthumbs.db
 Thumbs.db
