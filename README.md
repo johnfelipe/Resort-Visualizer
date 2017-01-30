@@ -17,7 +17,7 @@
 	- [Programmers](#programmers)
 	- [Artists](#artists)
 1. [Screenshots](#screenshots)
-1. [Style Guide](#style-guide)
+1. [Programming Style](#programming-style)
 	- [Visual Appeal](#visual-appeal)
 	- [Variable Prefixes](#variable-prefixes)
 	- [Using Properties](#using-properties)
@@ -55,7 +55,9 @@ Brent Perko | Ed Chrzanowski | Cameron Ames | Brad Vriesman | Jole Striegle |
 ## Screenshots
 Currently, this section is barren, as new features are built into the project this section will be updated.
 
-## Style Guide
+## Programming Style
+We will be following the standard naming conventions set by Microsoft's .NET Framework, see below for specific changes.
+
 #### Visual Appeal
 Tabs not spaces, for this project we will be using four spaced tabs when indenting.
 All selection and iteration statements will have a beginning and ending curly brace, including single-line statements.
@@ -64,11 +66,7 @@ if(x == y) { return true; }
 ```
 
 #### Variable Prefixes
-_Global - g__
-
-_Private - m__
-
-_Static - s__
+All private variables will have an underscore prefix.
 ```
 public int g_numOfCows = 0;
 private bool m_ownsCows = false;
