@@ -65,7 +65,9 @@ if(x == y) { return true; }
 
 #### Variable Prefixes
 _Global - g__
+
 _Private - m__
+
 _Static - s__
 ```
 public int g_numOfCows = 0;
@@ -75,7 +77,7 @@ public static int s_costOfCow = 500;
 Variables made public for ease of access through the inspector pannel do not need a prefix.
 
 #### Using Properties
-All global variables muse declare their using properties and a private variable counterpart.
+All global variables must declare their using properties and a private variable counterpart.
 ```
 private int m_numOfCows = 2;
 public int g_numOfCows
