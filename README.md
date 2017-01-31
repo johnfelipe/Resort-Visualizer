@@ -13,7 +13,7 @@
 1. [Install](#install)
 1. [Usage](#usage)
 1. [Team](#team)
-	- [Project Leader](#project-leader)
+	- [Product Owner](#product-owner)
 	- [Programmers](#programmers)
 	- [Artists](#artists)
 1. [Screenshots](#screenshots)
@@ -34,7 +34,7 @@ This project uses [Unity](https://unity3d.com/) and [WebGL](https://docs.unity3d
 Currently, this section is barren, as new features are built into the project this section will be updated.
 
 ## Team
-#### Project Leader
+#### Product Onwer
 
 Logan Armstrong |
 |-----|
@@ -57,25 +57,18 @@ Currently, this section is barren, as new features are built into the project th
 
 ## Style Guide
 #### Visual Appeal
-Tabs not spaces, for this project we will be using four spaced tabs when indenting.
-All selection and iteration statements will have a beginning and ending curly brace, including single-line statements.
+We will be following the standard naming conventions set by [Microsoft's .NET Framework](https://msdn.microsoft.com/en-us/library/ms229042(v=vs.110).aspx), see Programming Style below for specific changes.
+
+Tabs over spaces, for this project we will be using four column tabs and the Allman indent style. All selection and iteration single-line statements will have a beginning and ending brace.
 ```
 if(x == y) { return true; }
 ```
 
 #### Variable Prefixes
-_Global - g__
-_Private - m__
-_Static - s__
-```
-public int g_numOfCows = 0;
-private bool m_ownsCows = false;
-public static int s_costOfCow = 500;
-```
-Variables made public for ease of access through the inspector pannel do not need a prefix.
+All private variables will have an underscore prefix.
 
 #### Using Properties
-All global variables muse declare their using properties and a private variable counterpart.
+All global variables must declare their using properties and private variable counterparts.
 ```
 private int m_numOfCows = 2;
 public int g_numOfCows
@@ -86,7 +79,7 @@ public int g_numOfCows
     }
 }
 ```
-Never allow other scripts to set a public global variable, instead create a public function that sets the private variable.
+We should never allow other scripts to set a public global variable, instead we’ll create a public function that sets the private variable.
 ```
 public void SetNumOfCows(int newNumOfCows)
 {
