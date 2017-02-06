@@ -6,6 +6,10 @@ and this project adheres to [Semantic Versioning](http://semver.org/).
 
 ---
 
+## [0.0.2] - 2017-02-06
+### Changed
+- Updated the README based on info from the proposal document.
+
 ## [0.0.1] - 2017-01-29
 ### Added
 - This CHANGELOG file.
