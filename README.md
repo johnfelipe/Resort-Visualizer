@@ -17,7 +17,10 @@
 	- [Programmers](#programmers)
 	- [Artists](#artists)
 1. [Screenshots](#screenshots)
-1. [Style Guide](#style-guide)
+1. [Naming Conventions](#naming-conventions)
+	- [3D Files](#3d-files)
+	- [Textures](#textures)
+1. [Programming Style](#programming-style)
 	- [Visual Appeal](#visual-appeal)
 	- [Variable Prefixes](#variable-prefixes)
 	- [Using Properties](#using-properties)
@@ -55,7 +58,33 @@ Brent Perko | Ed Chrzanowski | Cameron Ames | Brad Vriesman | Jole Striegle |
 ## Screenshots
 Currently, this section is barren, as new features are built into the project this section will be updated.
 
-## Style Guide
+## Naming Conventions
+#### 3D Files
+```
+Working Files:
+(yyyy-mm-dd)_(ObjectName)_(Unwrapped (U) or NoUnwrap (NU))_(iteration #)_(initials of person who saved iteration).(obj or fbx)
+
+Example:
+2017-01-29_EiffelTower_NU_05_EC.obj
+```
+
+#### Textures
+```
+Working files:
+(yyyy-mm-dd)_(ObjectName)_(initials of person who saved iteration).(texturing software)
+
+Example :
+2017-01-29_EifelTower_EC_.psd
+
+Finals:
+(Final)_(ObjectName)_(initials of person who saved iteration)_(mapname:DIFF,SPEC,NORM,etc.).png
+
+Example:
+Final_EifelTower_EC_DIFF.png
+```
+
+
+## Programming Style
 #### Visual Appeal
 We will be following the standard naming conventions set by [Microsoft's .NET Framework](https://msdn.microsoft.com/en-us/library/ms229042(v=vs.110).aspx), see Programming Style below for specific changes.
 
