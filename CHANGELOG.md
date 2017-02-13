@@ -6,6 +6,18 @@ and this project adheres to [Semantic Versioning](http://semver.org/).
 
 ---
 
+## [0.0.4] - 2017-02-13
+### Added
+- CameraController script, it allows the camera to zoom in and out rotate around the object.
+- CameraMovement script, it allows the camera to switch targets based on what icon was clicked.
+- IconController script, it makes the icon rotate to always face the camera.
+
+### Changed
+- There was an issue with folders not staying when they were empty so here is a list of the following folders that will exist with this version:
+	- Prefabs
+	- Sprites
+	- Scirpts
+
 ## [0.0.3] - 2017-02-06
 ### Added
 - The following folders to the Unity project:
