@@ -6,6 +6,22 @@ and this project adheres to [Semantic Versioning](http://semver.org/).
 
 ---
 
+## [0.0.6] - 2017-02-13
+### Added
+- Users can now click and drag with left mouse button to rotate. This does not cause issues with checking for left clicks on buttons because the EventSystem is listening for clicks not holds. The User will accidentally only move to a new position if they start their orbit with their mouse over an icon and they release while still over the icon.
+
+### Changed
+- Users no longer use middle mouse button to orbit.
+- Commented out the debug prints from Camera Movement and Icon Controller scripts.
+
+## [0.0.5] - 2017-02-13
+### Added
+- Default icon image to Unity.
+- Fixed a bug where the Camera Movement script wasn't moving the camera to the new position, we were missing an EventSystem object in the scene.
+
+### Changed
+- Renamed UpdateCamerasTargets to UpdateCamerasTarget in the Icon Controller script.
+
 ## [0.0.4] - 2017-02-13
 ### Added
 - CameraController script, it allows the camera to zoom in and out rotate around the object.
