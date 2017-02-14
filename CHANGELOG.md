@@ -6,6 +6,12 @@ and this project adheres to [Semantic Versioning](http://semver.org/).
 
 ---
 
+## [0.0.9] - 2017-02-13
+### Added
+- Resized map to fix shadow glitch.
+- Removed all but the Entrance Icon.
+- Updated Global Illumination settings.
+
 ## [0.0.8] - 2017-02-13
 ### Added
 - Starting camera position.
@@ -15,7 +21,8 @@ and this project adheres to [Semantic Versioning](http://semver.org/).
 	- Entrance
 	- Arch
 	- Parking
-- A white ground plane
+- A white ground plane.
+- Reset the cameras far distance back to 1000.
 
 ### Changed
 - Updated the starting zoom of the camera.

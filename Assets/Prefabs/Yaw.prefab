@@ -83,7 +83,7 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1000010047270226}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: -100}
+  m_LocalPosition: {x: 0, y: 0, z: -10}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_Children: []
@@ -167,9 +167,9 @@ MonoBehaviour:
   invertLookY: 1
   MouseSensitivityX: 4
   MouseSensitivityY: 4
-  MouseSensitivityScroll: 25
-  maxZoom: 200
-  minZoom: 40
+  MouseSensitivityScroll: 10
+  maxZoom: 25
+  minZoom: 5
 --- !u!114 &114000012550643358
 MonoBehaviour:
   m_ObjectHideFlags: 1
