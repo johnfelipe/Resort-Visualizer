@@ -6,6 +6,22 @@ and this project adheres to [Semantic Versioning](http://semver.org/).
 
 ---
 
+## [0.0.8] - 2017-02-13
+### Added
+- Starting camera position.
+- Added icons to the following positions:
+	- Tower
+	- Pool
+	- Entrance
+	- Arch
+	- Parking
+- A white ground plane
+
+### Changed
+- Updated the starting zoom of the camera.
+- Updated the max zoom and min zoom settings to work with the model size. The new values are now 40 min, 200 max, and a new speed of 25.
+- Changed the far render distance for the camera from 1000 to 5000 units
+
 ## [0.0.7] - 2017-02-13
 ### Added
 - Imported Graybox model of the resort.

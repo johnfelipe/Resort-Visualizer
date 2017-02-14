@@ -83,7 +83,7 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1000010047270226}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: -6.45}
+  m_LocalPosition: {x: 0, y: 0, z: -100}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_Children: []
@@ -96,7 +96,7 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1000010161682422}
   m_LocalRotation: {x: 0, y: -0.8873732, z: 0, w: 0.46105185}
-  m_LocalPosition: {x: 3.25, y: 1.64, z: 3.61}
+  m_LocalPosition: {x: 34, y: 153, z: -49}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_LocalEulerAnglesHint: {x: 0, y: -125.09, z: 0}
   m_Children:
@@ -159,7 +159,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 1000010047270226}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 8f53a97c1ae9d624994955b69434d949, type: 3}
+  m_Script: {fileID: 11500000, guid: 2da78ec6af101d74caab81670136a2d3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   camYaw: {fileID: 4000014137799048}
@@ -167,9 +167,9 @@ MonoBehaviour:
   invertLookY: 1
   MouseSensitivityX: 4
   MouseSensitivityY: 4
-  MouseSensitivityScroll: 2
-  maxZoom: 20
-  minZoom: 1
+  MouseSensitivityScroll: 25
+  maxZoom: 200
+  minZoom: 40
 --- !u!114 &114000012550643358
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -178,7 +178,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 1000010161682422}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 947fd5f04c0d99c41b4a97753a0ad843, type: 3}
+  m_Script: {fileID: 11500000, guid: 5647e741d156ea843ac10d3c137f0bcd, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   startingLocation: {fileID: 0}
