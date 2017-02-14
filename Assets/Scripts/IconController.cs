@@ -37,7 +37,7 @@ public class IconController : MonoBehaviour
     /// In this public method we take our camYaw object and grab its movement componet so we can use its MoveCamera method. This will allow us to pass in the
     /// position of the new target position for our cameras focus.
     /// </summary>
-    public void UpdateCamerasTartget()
+    public void UpdateCamerasTarget()
     {
         camYaw.GetComponent<CameraMovement>().MoveCamera(transform.position);
         //print("I updated the target position");

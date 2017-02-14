@@ -88,7 +88,7 @@ public class CameraController : MonoBehaviour
             transform.localPosition = new Vector3(transform.localPosition.x, transform.localPosition.y, maxZoom);
         }
 
-        if (Input.GetButton("Fire3"))
+        if (Input.GetButton("Fire1"))
         {
             float prevY = camPitch.rotation.eulerAngles.y;
             float prevZ = camPitch.rotation.eulerAngles.z;
