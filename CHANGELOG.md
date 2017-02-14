@@ -6,6 +6,10 @@ and this project adheres to [Semantic Versioning](http://semver.org/).
 
 ---
 
+## [0.0.7] - 2017-02-13
+### Added
+- Imported Graybox model of the resort.
+
 ## [0.0.4] - 2017-02-13
 ### Added
 - CameraController script, it allows the camera to zoom in and out rotate around the object.
