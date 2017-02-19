@@ -6,6 +6,10 @@ and this project adheres to [Semantic Versioning](http://semver.org/).
 
 ---
 
+## [0.1.0] - 2017-02-19
+### Added
+- Merged the finished camera controls feature into the trunk branch.
+
 ## [0.0.12] - 2017-02-19
 ### Added
 - Point of Interest prefab.
