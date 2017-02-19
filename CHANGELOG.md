@@ -6,7 +6,7 @@ and this project adheres to [Semantic Versioning](http://semver.org/).
 
 ---
 
-## [0.0.11] - 2017-02-19
+## [0.0.12] - 2017-02-19
 ### Added
 - Point of Interest prefab.
 - A PoI Controller Script.
@@ -22,6 +22,7 @@ and this project adheres to [Semantic Versioning](http://semver.org/).
 - The particle emitter is now a prefab called Stars.
 - MoveCamera script now takes a target POI object, if the gameobject passed in has a POIController script attached we rip its info. The CameraMovement class still works the same but we pass the new info to the MoveToPosition function in the CameraController script.
 
+## [0.0.11] - 2017-02-19 [YANKED]
 
 ## [0.0.10] - 2017-02-19
 ### Added
