@@ -16,14 +16,14 @@ GameObject:
   m_ObjectHideFlags: 1
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
-  serializedVersion: 4
+  serializedVersion: 5
   m_Component:
-  - 4: {fileID: 4000013569330814}
-  - 20: {fileID: 20000010189057536}
-  - 92: {fileID: 92000010347995280}
-  - 124: {fileID: 124000012206211948}
-  - 81: {fileID: 81000012424089016}
-  - 114: {fileID: 114000012302272034}
+  - component: {fileID: 4000013569330814}
+  - component: {fileID: 20000010189057536}
+  - component: {fileID: 92000010347995280}
+  - component: {fileID: 124000012206211948}
+  - component: {fileID: 81000012424089016}
+  - component: {fileID: 114000012302272034}
   m_Layer: 0
   m_Name: Main Camera
   m_TagString: MainCamera
@@ -36,10 +36,10 @@ GameObject:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
-  serializedVersion: 4
+  serializedVersion: 5
   m_Component:
-  - 4: {fileID: 4000014137799048}
-  - 114: {fileID: 114000012550643358}
+  - component: {fileID: 4000014137799048}
+  - component: {fileID: 114000012550643358}
   m_Layer: 0
   m_Name: Yaw
   m_TagString: Untagged
@@ -52,9 +52,9 @@ GameObject:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
-  serializedVersion: 4
+  serializedVersion: 5
   m_Component:
-  - 4: {fileID: 4000010333030820}
+  - component: {fileID: 4000010333030820}
   m_Layer: 0
   m_Name: Pitch
   m_TagString: Untagged
@@ -68,14 +68,14 @@ Transform:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1000013665459184}
-  m_LocalRotation: {x: 0.2588191, y: 0, z: 0, w: 0.9659258}
+  m_LocalRotation: {x: 0.01745245, y: 0, z: 0, w: 0.99984777}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
-  m_LocalEulerAnglesHint: {x: 30, y: 0, z: 0}
   m_Children:
   - {fileID: 4000013569330814}
   m_Father: {fileID: 4000014137799048}
   m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 2, y: 0, z: 0}
 --- !u!4 &4000013569330814
 Transform:
   m_ObjectHideFlags: 1
@@ -83,26 +83,26 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1000010047270226}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: -10}
+  m_LocalPosition: {x: 0, y: 0, z: -16}
   m_LocalScale: {x: 1, y: 1, z: 1}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_Children: []
   m_Father: {fileID: 4000010333030820}
   m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!4 &4000014137799048
 Transform:
   m_ObjectHideFlags: 1
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1000010161682422}
-  m_LocalRotation: {x: 0, y: -0.8873732, z: 0, w: 0.46105185}
-  m_LocalPosition: {x: 34, y: 153, z: -49}
+  m_LocalRotation: {x: 0, y: 0.21388295, z: 0, w: 0.97685933}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
-  m_LocalEulerAnglesHint: {x: 0, y: -125.09, z: 0}
   m_Children:
   - {fileID: 4000010333030820}
   m_Father: {fileID: 0}
   m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 24.7, z: 0}
 --- !u!20 &20000010189057536
 Camera:
   m_ObjectHideFlags: 1
@@ -165,6 +165,7 @@ MonoBehaviour:
   camYaw: {fileID: 4000014137799048}
   camPitch: {fileID: 4000010333030820}
   invertLookY: 1
+  lerpSpeed: 5
   MouseSensitivityX: 4
   MouseSensitivityY: 4
   MouseSensitivityScroll: 10

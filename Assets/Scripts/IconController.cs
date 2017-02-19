@@ -39,7 +39,7 @@ public class IconController : MonoBehaviour
     /// </summary>
     public void UpdateCamerasTarget()
     {
-        camYaw.GetComponent<CameraMovement>().MoveCamera(transform.position);
+        //camYaw.GetComponent<CameraMovement>().MoveCamera(transform.position);
         //print("I updated the target position");
     }
 }
