@@ -9,8 +9,9 @@ public class CameraMovement : MonoBehaviour
 
     /// <summary>
     /// This is the starting location and the target location of our object
+    /// Along with the desired camera settings
     /// </summary>
-    public Transform startingLocation;
+    public GameObject startingLocation;
     private Vector3 targetLocation;
 
     /// <summary>
@@ -20,11 +21,24 @@ public class CameraMovement : MonoBehaviour
 
     /// <summary>
     /// In this Start method we set our target position to our starting location position and our target location to the same place.
+    /// We also grab the desired camera yaw, pitch, and zoom.
     /// </summary>
     void Start()
     {
-        transform.position = startingLocation.position;
-        targetLocation = startingLocation.position;
+        //Check to see if our starting position is a PoI object.
+        if (startingLocation.GetComponent<POIController>() != null)
+        {
+            POIController temp = startingLocation.GetComponent<POIController>();
+
+            transform.position = startingLocation.transform.position;
+            targetLocation = startingLocation.transform.position;
+
+            GetComponentInChildren<CameraController>().MoveToPosition(temp.desiredYaw, temp.desiredPitch, temp.desiredZoom);
+        }
+        else
+        {
+            print("The starting point doesn't have the POIController script.");
+        }
     }
 
     /// <summary>
@@ -44,9 +58,20 @@ public class CameraMovement : MonoBehaviour
     /// In this public method we take a new targetPos and set it to be our target location
     /// </summary>
     /// <param name="targetPos">This value (Vector3) will become the new target location for our camera</param>
-    public void MoveCamera(Vector3 targetPos)
+    public void MoveCamera(GameObject target)
     {
-        targetLocation = targetPos;
-        //print("Target locaiton recieved");
+        //Check to see if our starting position is a PoI object.
+        if (startingLocation.GetComponent<POIController>() != null)
+        {
+            POIController temp = target.GetComponent<POIController>();
+
+            targetLocation = target.transform.position;
+
+            GetComponentInChildren<CameraController>().MoveToPosition(temp.desiredYaw, temp.desiredPitch, temp.desiredZoom);
+        }
+        else
+        {
+            print("The starting point doesn't have the POIController script.");
+        }
     }
 }

@@ -1,5 +1,6 @@
 ﻿using UnityEngine;
 using System.Collections;
+using UnityEngine.UI;
 
 /// <summary>
 /// This class takes the users input and controls the cameras interactions
@@ -14,6 +15,7 @@ public class CameraController : MonoBehaviour
     public Transform camYaw;
     public Transform camPitch;
     public bool invertLookY = true;
+    public float lerpSpeed;
 
     /// <summary>
     /// This is the public sensitivity info
@@ -38,6 +40,13 @@ public class CameraController : MonoBehaviour
     float yaw;
     float scroll;
 
+
+    private float desiredYaw;
+    private float desiredPitch;
+    private float desiredZoom;
+
+    private bool allowCameraUpdate = false;
+
     /// <summary>
     /// In this Start method we make our max and min zoom values negative
     /// </summary>
@@ -53,6 +62,7 @@ public class CameraController : MonoBehaviour
     void Update()
     {
         MouseInput();
+        if(allowCameraUpdate) UpdateCamera();
     }
 
     /// <summary>
@@ -90,6 +100,7 @@ public class CameraController : MonoBehaviour
 
         if (Input.GetButton("Fire1"))
         {
+            allowCameraUpdate = false;
             float prevY = camPitch.rotation.eulerAngles.y;
             float prevZ = camPitch.rotation.eulerAngles.z;
 
@@ -120,5 +131,24 @@ public class CameraController : MonoBehaviour
         }
 
         //print("Euler Angles: " + camPitch.eulerAngles);
+    }
+
+    public void MoveToPosition(float yaw, float pitch,float zoom)
+    {
+        desiredYaw = yaw;
+        desiredPitch = pitch;
+        desiredZoom = zoom * -1;
+        allowCameraUpdate = true;
+    }
+
+    /// <summary>
+    /// This function will lerp the camera into the correct position.
+    /// </summary>
+    void UpdateCamera()
+    {
+        camYaw.rotation = Quaternion.Slerp(Quaternion.Euler(0, camYaw.rotation.eulerAngles.y, 0), Quaternion.Euler(0, desiredYaw, 0), Time.deltaTime * lerpSpeed);
+        camPitch.rotation = Quaternion.Slerp(Quaternion.Euler(camPitch.rotation.eulerAngles.x, 0, 0), Quaternion.Euler(desiredPitch, 0, 0), Time.deltaTime * lerpSpeed);
+        camPitch.localEulerAngles = new Vector3(camPitch.localEulerAngles.x, 0, 0);
+        transform.localPosition = Vector3.Lerp(transform.localPosition, new Vector3(0, 0, desiredZoom), Time.deltaTime * lerpSpeed);
     }
 }

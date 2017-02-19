@@ -6,6 +6,35 @@ and this project adheres to [Semantic Versioning](http://semver.org/).
 
 ---
 
+## [0.0.12] - 2017-02-19
+### Added
+- Point of Interest prefab.
+- A PoI Controller Script.
+- MoveToPosition function that sets the desired yaw, pitch, and zoom in the CameraController class.
+- UpdateCamera function that lerps the camera into the correct yaw, pitch, and zoom.
+- In CameraMovement we make sure the starting location has a POIController attached to it, then we get the desired info from it.
+- Points of Interest around the resort.
+- UI buttons for each POI.
+- ButtonLink script, it has a UpdatePOI function that gets access to the CameraMovement script and calls the MoveCamera function. It requires a point of interest game object so it can pass it's data along.\
+- MoveToPosition function Slerps and Lerps the yaw, pitch, and zoom into the correct positions set by the new point of interest objects settings that were passed in.
+
+### Changed
+- The particle emitter is now a prefab called Stars.
+- MoveCamera script now takes a target POI object, if the gameobject passed in has a POIController script attached we rip its info. The CameraMovement class still works the same but we pass the new info to the MoveToPosition function in the CameraController script.
+
+## [0.0.11] - 2017-02-19 [YANKED]
+
+## [0.0.10] - 2017-02-19
+### Added
+- Stars to the environment.
+- Star material.
+- Star sprite.
+
+### Chaged
+- Updated Icon image.
+- Updated Global Illumination settings.
+
+
 ## [0.0.9] - 2017-02-13
 ### Added
 - Resized map to fix shadow glitch.
