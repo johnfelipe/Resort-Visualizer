@@ -6,6 +6,12 @@ and this project adheres to [Semantic Versioning](http://semver.org/).
 
 ---
 
+## [0.1.2] - 2017-02-20
+### Changed
+- Switched color space back to Gamma so the project works with WebGL.
+
+## [0.1.1] - 2017-02-20 [YANKED]
+
 ## [0.1.0] - 2017-02-19
 ### Added
 - Merged the finished camera controls feature into the trunk branch.

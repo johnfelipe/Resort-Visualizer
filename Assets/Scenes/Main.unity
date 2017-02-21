@@ -713,7 +713,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 100018, guid: 3f6d1468980699941b6840419dd31ec3, type: 3}
       propertyPath: m_StaticEditorFlags
-      value: 4294967295
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 100016, guid: 3f6d1468980699941b6840419dd31ec3, type: 3}
       propertyPath: m_StaticEditorFlags
@@ -746,6 +746,10 @@ Prefab:
     - target: {fileID: 100000, guid: 3f6d1468980699941b6840419dd31ec3, type: 3}
       propertyPath: m_StaticEditorFlags
       value: 4294967295
+      objectReference: {fileID: 0}
+    - target: {fileID: 400020, guid: 3f6d1468980699941b6840419dd31ec3, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -10.23
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 3f6d1468980699941b6840419dd31ec3, type: 3}
