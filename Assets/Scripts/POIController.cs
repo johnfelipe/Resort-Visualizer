@@ -28,6 +28,11 @@ public class POIController : MonoBehaviour {
         else cm = cameraSystem.GetComponent<CameraMovement>();
     }
 
+    void OnValidate()
+    {
+        if(cameraSystem != null) cm.MoveCamera(gameObject);
+    }
+
     public void UpdatePOI()
     {
         cm.MoveCamera(gameObject);

@@ -248,6 +248,10 @@ Prefab:
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_CallState
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 1000013325079132, guid: 8b7b146abaab0964b825ea82df617a1b, type: 2}
+      propertyPath: m_TagString
+      value: Markers
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 8b7b146abaab0964b825ea82df617a1b, type: 2}
   m_IsPrefabParent: 0
@@ -475,6 +479,22 @@ Prefab:
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
       value: UpdatePOI
       objectReference: {fileID: 0}
+    - target: {fileID: 1806159822849718, guid: 7f8ec75beb9eb7746b35d09eb0f79e89, type: 2}
+      propertyPath: m_TagString
+      value: POI Button
+      objectReference: {fileID: 0}
+    - target: {fileID: 1516678103593234, guid: 7f8ec75beb9eb7746b35d09eb0f79e89, type: 2}
+      propertyPath: m_TagString
+      value: POI Button
+      objectReference: {fileID: 0}
+    - target: {fileID: 1446628745106360, guid: 7f8ec75beb9eb7746b35d09eb0f79e89, type: 2}
+      propertyPath: m_TagString
+      value: POI Button
+      objectReference: {fileID: 0}
+    - target: {fileID: 1820449954178366, guid: 7f8ec75beb9eb7746b35d09eb0f79e89, type: 2}
+      propertyPath: m_TagString
+      value: POI Button
+      objectReference: {fileID: 0}
     m_RemovedComponents:
     - {fileID: 114724379131660838, guid: 7f8ec75beb9eb7746b35d09eb0f79e89, type: 2}
     - {fileID: 114308590694084128, guid: 7f8ec75beb9eb7746b35d09eb0f79e89, type: 2}
@@ -621,17 +641,21 @@ Prefab:
     - target: {fileID: 114266331983040340, guid: f54be1e422a53284388aec4705113087,
         type: 2}
       propertyPath: desiredYaw
-      value: -59
+      value: -56
       objectReference: {fileID: 0}
     - target: {fileID: 114266331983040340, guid: f54be1e422a53284388aec4705113087,
         type: 2}
       propertyPath: desiredPitch
-      value: 12.7
+      value: 15.7
       objectReference: {fileID: 0}
     - target: {fileID: 114266331983040340, guid: f54be1e422a53284388aec4705113087,
         type: 2}
       propertyPath: desiredZoom
       value: 20
+      objectReference: {fileID: 0}
+    - target: {fileID: 1015106822359530, guid: f54be1e422a53284388aec4705113087, type: 2}
+      propertyPath: m_TagString
+      value: Point of Interest
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: f54be1e422a53284388aec4705113087, type: 2}
@@ -1000,6 +1024,10 @@ Prefab:
       propertyPath: test.x
       value: -2.93
       objectReference: {fileID: 0}
+    - target: {fileID: 1015106822359530, guid: f54be1e422a53284388aec4705113087, type: 2}
+      propertyPath: m_TagString
+      value: Point of Interest
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: f54be1e422a53284388aec4705113087, type: 2}
   m_IsPrefabParent: 0
@@ -1076,6 +1104,10 @@ Prefab:
         type: 2}
       propertyPath: desiredYaw
       value: -73
+      objectReference: {fileID: 0}
+    - target: {fileID: 1015106822359530, guid: f54be1e422a53284388aec4705113087, type: 2}
+      propertyPath: m_TagString
+      value: Point of Interest
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: f54be1e422a53284388aec4705113087, type: 2}
@@ -1242,6 +1274,10 @@ Prefab:
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_CallState
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 1000013325079132, guid: 8b7b146abaab0964b825ea82df617a1b, type: 2}
+      propertyPath: m_TagString
+      value: Markers
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 8b7b146abaab0964b825ea82df617a1b, type: 2}
   m_IsPrefabParent: 0
@@ -1296,17 +1332,21 @@ Prefab:
     - target: {fileID: 114266331983040340, guid: f54be1e422a53284388aec4705113087,
         type: 2}
       propertyPath: desiredYaw
-      value: -145
+      value: -77
       objectReference: {fileID: 0}
     - target: {fileID: 114266331983040340, guid: f54be1e422a53284388aec4705113087,
         type: 2}
       propertyPath: desiredPitch
-      value: 75
+      value: 52.6
       objectReference: {fileID: 0}
     - target: {fileID: 114266331983040340, guid: f54be1e422a53284388aec4705113087,
         type: 2}
       propertyPath: desiredZoom
-      value: 6.17
+      value: 9.91
+      objectReference: {fileID: 0}
+    - target: {fileID: 1015106822359530, guid: f54be1e422a53284388aec4705113087, type: 2}
+      propertyPath: m_TagString
+      value: Point of Interest
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: f54be1e422a53284388aec4705113087, type: 2}
@@ -1473,6 +1513,10 @@ Prefab:
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_CallState
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 1000013325079132, guid: 8b7b146abaab0964b825ea82df617a1b, type: 2}
+      propertyPath: m_TagString
+      value: Markers
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 8b7b146abaab0964b825ea82df617a1b, type: 2}
   m_IsPrefabParent: 0
@@ -1543,6 +1587,10 @@ Prefab:
     - target: {fileID: 1015106822359530, guid: f54be1e422a53284388aec4705113087, type: 2}
       propertyPath: m_Name
       value: Starting Point
+      objectReference: {fileID: 0}
+    - target: {fileID: 1015106822359530, guid: f54be1e422a53284388aec4705113087, type: 2}
+      propertyPath: m_TagString
+      value: Point of Interest
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: f54be1e422a53284388aec4705113087, type: 2}
@@ -1764,6 +1812,10 @@ Prefab:
         type: 2}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_CallState
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1000013325079132, guid: 8b7b146abaab0964b825ea82df617a1b, type: 2}
+      propertyPath: m_TagString
+      value: Markers
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 8b7b146abaab0964b825ea82df617a1b, type: 2}

@@ -5,6 +5,9 @@ TagManager:
   serializedVersion: 2
   tags:
   - Camera System
+  - Point of Interest
+  - POI Button
+  - Markers
   layers:
   - Default
   - TransparentFX
