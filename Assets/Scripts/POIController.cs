@@ -17,4 +17,19 @@ public class POIController : MonoBehaviour {
     public float desiredPitch;
     [Range(5.0f, 25.0f)]
     public float desiredZoom;
+
+    private GameObject cameraSystem = null;
+    private CameraMovement cm;
+
+    void Start()
+    {
+        cameraSystem = GameObject.FindGameObjectWithTag("Camera System");
+        if (cameraSystem == null) print("Camera system is missing or broken");
+        else cm = cameraSystem.GetComponent<CameraMovement>();
+    }
+
+    public void UpdatePOI()
+    {
+        cm.MoveCamera(gameObject);
+    }
 }

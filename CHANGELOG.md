@@ -6,6 +6,18 @@ and this project adheres to [Semantic Versioning](http://semver.org/).
 
 ---
 
+## [0.1.3] - 2017-02-26
+### Added
+- In the POI script we search for the Camera System gameobject by looking for the Camera System tag.
+- In the POI script now has a UpdatePOI function, it was taken from ButtonLink.cs.
+
+### Changed
+- The HUD buttons now call UpdatePOI from the POI objects instead of their own ButtonLink script.
+
+### Removed
+- The HUD buttons no longer have a ButtonLink script attached to them.
+- Deleted the ButtonLink.cs file since it is no longer needed.
+
 ## [0.1.2] - 2017-02-20
 ### Changed
 - Switched color space back to Gamma so the project works with WebGL.
