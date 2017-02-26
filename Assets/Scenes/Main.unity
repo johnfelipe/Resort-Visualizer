@@ -641,17 +641,17 @@ Prefab:
     - target: {fileID: 114266331983040340, guid: f54be1e422a53284388aec4705113087,
         type: 2}
       propertyPath: desiredYaw
-      value: -56
+      value: 21
       objectReference: {fileID: 0}
     - target: {fileID: 114266331983040340, guid: f54be1e422a53284388aec4705113087,
         type: 2}
       propertyPath: desiredPitch
-      value: 15.7
+      value: 39
       objectReference: {fileID: 0}
     - target: {fileID: 114266331983040340, guid: f54be1e422a53284388aec4705113087,
         type: 2}
       propertyPath: desiredZoom
-      value: 20
+      value: 19
       objectReference: {fileID: 0}
     - target: {fileID: 1015106822359530, guid: f54be1e422a53284388aec4705113087, type: 2}
       propertyPath: m_TagString
@@ -1007,17 +1007,17 @@ Prefab:
     - target: {fileID: 114266331983040340, guid: f54be1e422a53284388aec4705113087,
         type: 2}
       propertyPath: desiredYaw
-      value: 25
+      value: -91
       objectReference: {fileID: 0}
     - target: {fileID: 114266331983040340, guid: f54be1e422a53284388aec4705113087,
         type: 2}
       propertyPath: desiredPitch
-      value: 38.6
+      value: 18
       objectReference: {fileID: 0}
     - target: {fileID: 114266331983040340, guid: f54be1e422a53284388aec4705113087,
         type: 2}
       propertyPath: desiredZoom
-      value: 18.13
+      value: 7
       objectReference: {fileID: 0}
     - target: {fileID: 114266331983040340, guid: f54be1e422a53284388aec4705113087,
         type: 2}
@@ -1093,17 +1093,17 @@ Prefab:
     - target: {fileID: 114266331983040340, guid: f54be1e422a53284388aec4705113087,
         type: 2}
       propertyPath: desiredZoom
-      value: 24.16
+      value: 7.5
       objectReference: {fileID: 0}
     - target: {fileID: 114266331983040340, guid: f54be1e422a53284388aec4705113087,
         type: 2}
       propertyPath: desiredPitch
-      value: 75
+      value: 30
       objectReference: {fileID: 0}
     - target: {fileID: 114266331983040340, guid: f54be1e422a53284388aec4705113087,
         type: 2}
       propertyPath: desiredYaw
-      value: -73
+      value: -44
       objectReference: {fileID: 0}
     - target: {fileID: 1015106822359530, guid: f54be1e422a53284388aec4705113087, type: 2}
       propertyPath: m_TagString
@@ -1332,17 +1332,17 @@ Prefab:
     - target: {fileID: 114266331983040340, guid: f54be1e422a53284388aec4705113087,
         type: 2}
       propertyPath: desiredYaw
-      value: -77
+      value: -112
       objectReference: {fileID: 0}
     - target: {fileID: 114266331983040340, guid: f54be1e422a53284388aec4705113087,
         type: 2}
       propertyPath: desiredPitch
-      value: 52.6
+      value: 38
       objectReference: {fileID: 0}
     - target: {fileID: 114266331983040340, guid: f54be1e422a53284388aec4705113087,
         type: 2}
       propertyPath: desiredZoom
-      value: 9.91
+      value: 10
       objectReference: {fileID: 0}
     - target: {fileID: 1015106822359530, guid: f54be1e422a53284388aec4705113087, type: 2}
       propertyPath: m_TagString
@@ -1567,12 +1567,12 @@ Prefab:
     - target: {fileID: 114266331983040340, guid: f54be1e422a53284388aec4705113087,
         type: 2}
       propertyPath: desiredYaw
-      value: 78
+      value: -132
       objectReference: {fileID: 0}
     - target: {fileID: 114266331983040340, guid: f54be1e422a53284388aec4705113087,
         type: 2}
       propertyPath: desiredPitch
-      value: 30
+      value: 23
       objectReference: {fileID: 0}
     - target: {fileID: 114266331983040340, guid: f54be1e422a53284388aec4705113087,
         type: 2}

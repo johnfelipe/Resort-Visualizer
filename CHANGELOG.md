@@ -6,6 +6,13 @@ and this project adheres to [Semantic Versioning](http://semver.org/).
 
 ---
 
+## [0.1.5] - 2017-02-26
+### Added
+- Zooming also stops the Lerps and Slerps.
+
+### Changed
+- Updated all the camera positions for the POI objects.
+
 ## [0.1.4] - 2017-02-26
 ### Added
 - When adjusting the sliders on a POI object the camera will update to show the new settings using the OnValidate function.

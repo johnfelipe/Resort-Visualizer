@@ -85,8 +85,10 @@ public class CameraController : MonoBehaviour
     void MouseInput()
     {
         scroll = Input.GetAxis("Mouse ScrollWheel");
-
-        transform.localPosition = new Vector3(transform.localPosition.x, transform.localPosition.y, transform.localPosition.z + scroll * MouseSensitivityScroll);
+        if (scroll != 0) {
+            allowCameraUpdate = false;
+            transform.localPosition = new Vector3(transform.localPosition.x, transform.localPosition.y, transform.localPosition.z + scroll * MouseSensitivityScroll);
+        }
 
         if (transform.localPosition.z > minZoom)
         {
