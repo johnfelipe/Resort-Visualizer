@@ -6,6 +6,14 @@ and this project adheres to [Semantic Versioning](http://semver.org/).
 
 ---
 
+## [0.1.6] - 2017-02-26
+### Changed
+- Updated all the comments.
+
+### Removed
+- Cleaned the IconController script by removing the MoveToPosition function. Icons are now Markers, they have no functionality and are only visuals.
+- Removed unused variables in the CameraController script.
+
 ## [0.1.5] - 2017-02-26
 ### Added
 - Zooming also stops the Lerps and Slerps.
