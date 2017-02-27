@@ -1,0 +1,136 @@
+fileFormatVersion: 2
+guid: 7a86db3751b26734eb9c06607b3e0791
+timeCreated: 1488217786
+licenseType: Free
+ModelImporter:
+  serializedVersion: 19
+  fileIDToRecycleName:
+    100000: //RootNode
+    100002: ArcDetriomphe
+    100004: Bottom of center
+    100006: Box001
+    100008: centerbuilding
+    100010: Cylinder003
+    100012: garage
+    100014: Mon Ami Gabi
+    100016: Mongolfier Balloon
+    100018: MontgolfierBalloon
+    100020: Object002
+    100022: Plane001
+    100024: tower
+    400000: //RootNode
+    400002: ArcDetriomphe
+    400004: Bottom of center
+    400006: Box001
+    400008: centerbuilding
+    400010: Cylinder003
+    400012: garage
+    400014: Mon Ami Gabi
+    400016: Mongolfier Balloon
+    400018: MontgolfierBalloon
+    400020: Object002
+    400022: Plane001
+    400024: tower
+    2300000: ArcDetriomphe
+    2300002: Bottom of center
+    2300004: Box001
+    2300006: centerbuilding
+    2300008: Cylinder003
+    2300010: garage
+    2300012: Mon Ami Gabi
+    2300014: MontgolfierBalloon
+    2300016: Object002
+    2300018: Plane001
+    2300020: tower
+    3300000: ArcDetriomphe
+    3300002: Bottom of center
+    3300004: Box001
+    3300006: centerbuilding
+    3300008: Cylinder003
+    3300010: garage
+    3300012: Mon Ami Gabi
+    3300014: MontgolfierBalloon
+    3300016: Object002
+    3300018: Plane001
+    3300020: tower
+    4300000: Plane001
+    4300002: Bottom of center
+    4300004: centerbuilding
+    4300006: tower
+    4300008: Mon Ami Gabi
+    4300010: Object002
+    4300012: Cylinder003
+    4300014: MontgolfierBalloon
+    4300016: ArcDetriomphe
+    4300018: Box001
+    4300020: garage
+    7400000: Take 001
+    9500000: //RootNode
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
