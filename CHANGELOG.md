@@ -6,6 +6,38 @@ and this project adheres to [Semantic Versioning](http://semver.org/).
 
 ---
 
+## [0.1.6] - 2017-02-26
+### Changed
+- Updated all the comments.
+
+### Removed
+- Cleaned the IconController script by removing the MoveToPosition function. Icons are now Markers, they have no functionality and are only visuals.
+- Removed unused variables in the CameraController script.
+
+## [0.1.5] - 2017-02-26
+### Added
+- Zooming also stops the Lerps and Slerps.
+
+### Changed
+- Updated all the camera positions for the POI objects.
+
+## [0.1.4] - 2017-02-26
+### Added
+- When adjusting the sliders on a POI object the camera will update to show the new settings using the OnValidate function.
+- Created a Point of Interest, Marker, and POI Button tag and applied them to the gameobjects.
+
+## [0.1.3] - 2017-02-26
+### Added
+- In the POI script we search for the Camera System gameobject by looking for the Camera System tag.
+- In the POI script now has a UpdatePOI function, it was taken from ButtonLink.cs.
+
+### Changed
+- The HUD buttons now call UpdatePOI from the POI objects instead of their own ButtonLink script.
+
+### Removed
+- The HUD buttons no longer have a ButtonLink script attached to them.
+- Deleted the ButtonLink.cs file since it is no longer needed.
+
 ## [0.1.2] - 2017-02-20
 ### Changed
 - Switched color space back to Gamma so the project works with WebGL.

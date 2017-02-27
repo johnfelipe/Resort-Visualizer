@@ -248,6 +248,10 @@ Prefab:
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_CallState
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 1000013325079132, guid: 8b7b146abaab0964b825ea82df617a1b, type: 2}
+      propertyPath: m_TagString
+      value: Markers
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 8b7b146abaab0964b825ea82df617a1b, type: 2}
   m_IsPrefabParent: 0
@@ -435,7 +439,67 @@ Prefab:
       propertyPath: cameraSystem
       value: 
       objectReference: {fileID: 1103200436}
-    m_RemovedComponents: []
+    - target: {fileID: 114695500014692008, guid: 7f8ec75beb9eb7746b35d09eb0f79e89,
+        type: 2}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 1352104443}
+    - target: {fileID: 114695500014692008, guid: 7f8ec75beb9eb7746b35d09eb0f79e89,
+        type: 2}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: UpdatePOI
+      objectReference: {fileID: 0}
+    - target: {fileID: 114301554918139874, guid: 7f8ec75beb9eb7746b35d09eb0f79e89,
+        type: 2}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 1594191474}
+    - target: {fileID: 114301554918139874, guid: 7f8ec75beb9eb7746b35d09eb0f79e89,
+        type: 2}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: UpdatePOI
+      objectReference: {fileID: 0}
+    - target: {fileID: 114921251841351860, guid: 7f8ec75beb9eb7746b35d09eb0f79e89,
+        type: 2}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 1362157848}
+    - target: {fileID: 114921251841351860, guid: 7f8ec75beb9eb7746b35d09eb0f79e89,
+        type: 2}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: UpdatePOI
+      objectReference: {fileID: 0}
+    - target: {fileID: 114154586706650042, guid: 7f8ec75beb9eb7746b35d09eb0f79e89,
+        type: 2}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 574237647}
+    - target: {fileID: 114154586706650042, guid: 7f8ec75beb9eb7746b35d09eb0f79e89,
+        type: 2}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: UpdatePOI
+      objectReference: {fileID: 0}
+    - target: {fileID: 1806159822849718, guid: 7f8ec75beb9eb7746b35d09eb0f79e89, type: 2}
+      propertyPath: m_TagString
+      value: POI Button
+      objectReference: {fileID: 0}
+    - target: {fileID: 1516678103593234, guid: 7f8ec75beb9eb7746b35d09eb0f79e89, type: 2}
+      propertyPath: m_TagString
+      value: POI Button
+      objectReference: {fileID: 0}
+    - target: {fileID: 1446628745106360, guid: 7f8ec75beb9eb7746b35d09eb0f79e89, type: 2}
+      propertyPath: m_TagString
+      value: POI Button
+      objectReference: {fileID: 0}
+    - target: {fileID: 1820449954178366, guid: 7f8ec75beb9eb7746b35d09eb0f79e89, type: 2}
+      propertyPath: m_TagString
+      value: POI Button
+      objectReference: {fileID: 0}
+    m_RemovedComponents:
+    - {fileID: 114724379131660838, guid: 7f8ec75beb9eb7746b35d09eb0f79e89, type: 2}
+    - {fileID: 114308590694084128, guid: 7f8ec75beb9eb7746b35d09eb0f79e89, type: 2}
+    - {fileID: 114678053822902394, guid: 7f8ec75beb9eb7746b35d09eb0f79e89, type: 2}
+    - {fileID: 114458218994172896, guid: 7f8ec75beb9eb7746b35d09eb0f79e89, type: 2}
   m_ParentPrefab: {fileID: 100100000, guid: 7f8ec75beb9eb7746b35d09eb0f79e89, type: 2}
   m_IsPrefabParent: 0
 --- !u!1 &372495279 stripped
@@ -577,21 +641,31 @@ Prefab:
     - target: {fileID: 114266331983040340, guid: f54be1e422a53284388aec4705113087,
         type: 2}
       propertyPath: desiredYaw
-      value: -59
+      value: 21
       objectReference: {fileID: 0}
     - target: {fileID: 114266331983040340, guid: f54be1e422a53284388aec4705113087,
         type: 2}
       propertyPath: desiredPitch
-      value: 12.7
+      value: 39
       objectReference: {fileID: 0}
     - target: {fileID: 114266331983040340, guid: f54be1e422a53284388aec4705113087,
         type: 2}
       propertyPath: desiredZoom
-      value: 20
+      value: 19
+      objectReference: {fileID: 0}
+    - target: {fileID: 1015106822359530, guid: f54be1e422a53284388aec4705113087, type: 2}
+      propertyPath: m_TagString
+      value: Point of Interest
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: f54be1e422a53284388aec4705113087, type: 2}
   m_IsPrefabParent: 0
+--- !u!114 &574237647 stripped
+MonoBehaviour:
+  m_PrefabParentObject: {fileID: 114266331983040340, guid: f54be1e422a53284388aec4705113087,
+    type: 2}
+  m_PrefabInternal: {fileID: 574237646}
+  m_Script: {fileID: 11500000, guid: 392b7f49f938d8143a0bc0326b036b02, type: 3}
 --- !u!1001 &631537465
 Prefab:
   m_ObjectHideFlags: 0
@@ -933,22 +1007,26 @@ Prefab:
     - target: {fileID: 114266331983040340, guid: f54be1e422a53284388aec4705113087,
         type: 2}
       propertyPath: desiredYaw
-      value: 25
+      value: -91
       objectReference: {fileID: 0}
     - target: {fileID: 114266331983040340, guid: f54be1e422a53284388aec4705113087,
         type: 2}
       propertyPath: desiredPitch
-      value: 38.6
+      value: 18
       objectReference: {fileID: 0}
     - target: {fileID: 114266331983040340, guid: f54be1e422a53284388aec4705113087,
         type: 2}
       propertyPath: desiredZoom
-      value: 18.13
+      value: 7
       objectReference: {fileID: 0}
     - target: {fileID: 114266331983040340, guid: f54be1e422a53284388aec4705113087,
         type: 2}
       propertyPath: test.x
       value: -2.93
+      objectReference: {fileID: 0}
+    - target: {fileID: 1015106822359530, guid: f54be1e422a53284388aec4705113087, type: 2}
+      propertyPath: m_TagString
+      value: Point of Interest
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: f54be1e422a53284388aec4705113087, type: 2}
@@ -958,6 +1036,12 @@ GameObject:
   m_PrefabParentObject: {fileID: 1015106822359530, guid: f54be1e422a53284388aec4705113087,
     type: 2}
   m_PrefabInternal: {fileID: 1352104441}
+--- !u!114 &1352104443 stripped
+MonoBehaviour:
+  m_PrefabParentObject: {fileID: 114266331983040340, guid: f54be1e422a53284388aec4705113087,
+    type: 2}
+  m_PrefabInternal: {fileID: 1352104441}
+  m_Script: {fileID: 11500000, guid: 392b7f49f938d8143a0bc0326b036b02, type: 3}
 --- !u!4 &1352104444 stripped
 Transform:
   m_PrefabParentObject: {fileID: 4255969296655236, guid: f54be1e422a53284388aec4705113087,
@@ -1009,21 +1093,31 @@ Prefab:
     - target: {fileID: 114266331983040340, guid: f54be1e422a53284388aec4705113087,
         type: 2}
       propertyPath: desiredZoom
-      value: 24.16
+      value: 7.5
       objectReference: {fileID: 0}
     - target: {fileID: 114266331983040340, guid: f54be1e422a53284388aec4705113087,
         type: 2}
       propertyPath: desiredPitch
-      value: 75
+      value: 30
       objectReference: {fileID: 0}
     - target: {fileID: 114266331983040340, guid: f54be1e422a53284388aec4705113087,
         type: 2}
       propertyPath: desiredYaw
-      value: -73
+      value: -44
+      objectReference: {fileID: 0}
+    - target: {fileID: 1015106822359530, guid: f54be1e422a53284388aec4705113087, type: 2}
+      propertyPath: m_TagString
+      value: Point of Interest
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: f54be1e422a53284388aec4705113087, type: 2}
   m_IsPrefabParent: 0
+--- !u!114 &1362157848 stripped
+MonoBehaviour:
+  m_PrefabParentObject: {fileID: 114266331983040340, guid: f54be1e422a53284388aec4705113087,
+    type: 2}
+  m_PrefabInternal: {fileID: 1362157847}
+  m_Script: {fileID: 11500000, guid: 392b7f49f938d8143a0bc0326b036b02, type: 3}
 --- !u!1001 &1461441786
 Prefab:
   m_ObjectHideFlags: 0
@@ -1180,6 +1274,10 @@ Prefab:
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_CallState
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 1000013325079132, guid: 8b7b146abaab0964b825ea82df617a1b, type: 2}
+      propertyPath: m_TagString
+      value: Markers
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 8b7b146abaab0964b825ea82df617a1b, type: 2}
   m_IsPrefabParent: 0
@@ -1234,21 +1332,31 @@ Prefab:
     - target: {fileID: 114266331983040340, guid: f54be1e422a53284388aec4705113087,
         type: 2}
       propertyPath: desiredYaw
-      value: -145
+      value: -112
       objectReference: {fileID: 0}
     - target: {fileID: 114266331983040340, guid: f54be1e422a53284388aec4705113087,
         type: 2}
       propertyPath: desiredPitch
-      value: 75
+      value: 38
       objectReference: {fileID: 0}
     - target: {fileID: 114266331983040340, guid: f54be1e422a53284388aec4705113087,
         type: 2}
       propertyPath: desiredZoom
-      value: 6.17
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 1015106822359530, guid: f54be1e422a53284388aec4705113087, type: 2}
+      propertyPath: m_TagString
+      value: Point of Interest
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: f54be1e422a53284388aec4705113087, type: 2}
   m_IsPrefabParent: 0
+--- !u!114 &1594191474 stripped
+MonoBehaviour:
+  m_PrefabParentObject: {fileID: 114266331983040340, guid: f54be1e422a53284388aec4705113087,
+    type: 2}
+  m_PrefabInternal: {fileID: 1594191473}
+  m_Script: {fileID: 11500000, guid: 392b7f49f938d8143a0bc0326b036b02, type: 3}
 --- !u!1001 &1647833526
 Prefab:
   m_ObjectHideFlags: 0
@@ -1405,6 +1513,10 @@ Prefab:
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_CallState
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 1000013325079132, guid: 8b7b146abaab0964b825ea82df617a1b, type: 2}
+      propertyPath: m_TagString
+      value: Markers
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 8b7b146abaab0964b825ea82df617a1b, type: 2}
   m_IsPrefabParent: 0
@@ -1455,12 +1567,12 @@ Prefab:
     - target: {fileID: 114266331983040340, guid: f54be1e422a53284388aec4705113087,
         type: 2}
       propertyPath: desiredYaw
-      value: 78
+      value: -132
       objectReference: {fileID: 0}
     - target: {fileID: 114266331983040340, guid: f54be1e422a53284388aec4705113087,
         type: 2}
       propertyPath: desiredPitch
-      value: 30
+      value: 23
       objectReference: {fileID: 0}
     - target: {fileID: 114266331983040340, guid: f54be1e422a53284388aec4705113087,
         type: 2}
@@ -1475,6 +1587,10 @@ Prefab:
     - target: {fileID: 1015106822359530, guid: f54be1e422a53284388aec4705113087, type: 2}
       propertyPath: m_Name
       value: Starting Point
+      objectReference: {fileID: 0}
+    - target: {fileID: 1015106822359530, guid: f54be1e422a53284388aec4705113087, type: 2}
+      propertyPath: m_TagString
+      value: Point of Interest
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: f54be1e422a53284388aec4705113087, type: 2}
@@ -1696,6 +1812,10 @@ Prefab:
         type: 2}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_CallState
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1000013325079132, guid: 8b7b146abaab0964b825ea82df617a1b, type: 2}
+      propertyPath: m_TagString
+      value: Markers
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 8b7b146abaab0964b825ea82df617a1b, type: 2}
