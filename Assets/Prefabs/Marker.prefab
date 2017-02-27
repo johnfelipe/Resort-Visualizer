@@ -16,12 +16,12 @@ GameObject:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
-  serializedVersion: 4
+  serializedVersion: 5
   m_Component:
-  - 224: {fileID: 224000011271696300}
-  - 222: {fileID: 222000011106523910}
-  - 114: {fileID: 114000013423064960}
-  - 114: {fileID: 114000013709807976}
+  - component: {fileID: 224000011271696300}
+  - component: {fileID: 222000011106523910}
+  - component: {fileID: 114000013423064960}
+  - component: {fileID: 114000013709807976}
   m_Layer: 5
   m_Name: Button
   m_TagString: Untagged
@@ -34,15 +34,15 @@ GameObject:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
-  serializedVersion: 4
+  serializedVersion: 5
   m_Component:
-  - 224: {fileID: 224000013722680670}
-  - 223: {fileID: 223000012472540904}
-  - 114: {fileID: 114000013150007024}
-  - 114: {fileID: 114000012127913742}
-  - 114: {fileID: 114000013043665822}
+  - component: {fileID: 224000013722680670}
+  - component: {fileID: 223000012472540904}
+  - component: {fileID: 114000013150007024}
+  - component: {fileID: 114000012127913742}
+  - component: {fileID: 114000013043665822}
   m_Layer: 5
-  m_Name: Pool
+  m_Name: Marker
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -72,7 +72,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 1000013325079132}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: c7c0d35375678d945b5e1b399f881bdb, type: 3}
+  m_Script: {fileID: 11500000, guid: 8f8d415e410612f47b9bba145d2081e5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   targetObject: {fileID: 0}
@@ -118,7 +118,7 @@ MonoBehaviour:
       m_Calls: []
     m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
       Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
-  m_Sprite: {fileID: 21300000, guid: 80da59a4dfb91324bb3fe3860ef86a80, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 86ba2d8ce90810e40880c70d7468ef2d, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -138,12 +138,12 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Navigation:
-    m_Mode: 3
+    m_Mode: 0
     m_SelectOnUp: {fileID: 0}
     m_SelectOnDown: {fileID: 0}
     m_SelectOnLeft: {fileID: 0}
     m_SelectOnRight: {fileID: 0}
-  m_Transition: 1
+  m_Transition: 0
   m_Colors:
     m_NormalColor: {r: 1, g: 1, b: 1, a: 1}
     m_HighlightedColor: {r: 1, g: 1, b: 1, a: 1}
@@ -166,7 +166,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 114000013043665822}
-        m_MethodName: UpdateCamerasTartget
+        m_MethodName: UpdateCamerasTarget
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -175,7 +175,7 @@ MonoBehaviour:
           m_FloatArgument: 0
           m_StringArgument: 
           m_BoolArgument: 0
-        m_CallState: 2
+        m_CallState: 0
     m_TypeName: UnityEngine.UI.Button+ButtonClickedEvent, UnityEngine.UI, Version=1.0.0.0,
       Culture=neutral, PublicKeyToken=null
 --- !u!222 &222000011106523910
@@ -211,11 +211,11 @@ RectTransform:
   m_GameObject: {fileID: 1000011495810870}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 0.001, y: 0.001, z: 0.001}
   m_Children: []
   m_Father: {fileID: 224000013722680670}
   m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
   m_AnchoredPosition: {x: 0, y: 0}
@@ -228,15 +228,15 @@ RectTransform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1000013325079132}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 2.762}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_LocalPosition: {x: 0, y: 0, z: -49.1}
+  m_LocalScale: {x: 15, y: 15, z: 15}
   m_Children:
   - {fileID: 224000011271696300}
   m_Father: {fileID: 0}
   m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
-  m_AnchoredPosition: {x: 0.97, y: 1.637}
+  m_AnchoredPosition: {x: 34.2, y: 153.7}
   m_SizeDelta: {x: 2, y: 2}
   m_Pivot: {x: 0.5, y: 0.5}
