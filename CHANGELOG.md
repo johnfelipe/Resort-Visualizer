@@ -6,6 +6,10 @@ and this project adheres to [Semantic Versioning](http://semver.org/).
 
 ---
 
+## [1.0.1] - 2017-02-27 [HOTFIX]
+### Changed
+- Updated graybox model.
+
 ## [1.0.0] - 2017-02-26 [RELEASE]
 
 ## [0.1.6] - 2017-02-26
