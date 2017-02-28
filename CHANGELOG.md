@@ -6,6 +6,15 @@ and this project adheres to [Semantic Versioning](http://semver.org/).
 
 ---
 
+## [1.0.3] - 2017-02-27 [HOTFIX]
+### Changed
+- Updated graybox model.
+
+## [1.0.2] - 2017-02-27 [HOTFIX]
+### Changed
+- Made the stars transparent so they are not as visible.
+- Updated the project to work in Unity 5.5.2.
+
 ## [1.0.1] - 2017-02-27 [HOTFIX]
 ### Changed
 - Updated graybox model.
