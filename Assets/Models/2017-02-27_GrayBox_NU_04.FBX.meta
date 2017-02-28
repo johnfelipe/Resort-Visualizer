@@ -1,0 +1,154 @@
+fileFormatVersion: 2
+guid: fa2e9b64eb5ff334c8511e787dc74a50
+timeCreated: 1488243268
+licenseType: Free
+ModelImporter:
+  serializedVersion: 19
+  fileIDToRecycleName:
+    100000: //RootNode
+    100002: ArcDetriomphe
+    100004: Bottom of center
+    100006: centerbuilding
+    100008: Chateau
+    100010: entrance
+    100012: garage
+    100014: ground
+    100016: Mon Ami Gabi
+    100018: MontgolfierBalloon
+    100020: old
+    100022: old2
+    100024: old3
+    100026: old4
+    100028: pool
+    100030: tower
+    400000: //RootNode
+    400002: ArcDetriomphe
+    400004: Bottom of center
+    400006: centerbuilding
+    400008: Chateau
+    400010: entrance
+    400012: garage
+    400014: ground
+    400016: Mon Ami Gabi
+    400018: MontgolfierBalloon
+    400020: old
+    400022: old2
+    400024: old3
+    400026: old4
+    400028: pool
+    400030: tower
+    2300000: ArcDetriomphe
+    2300002: Bottom of center
+    2300004: centerbuilding
+    2300006: Chateau
+    2300008: entrance
+    2300010: garage
+    2300012: ground
+    2300014: Mon Ami Gabi
+    2300016: MontgolfierBalloon
+    2300018: old
+    2300020: old2
+    2300022: old3
+    2300024: old4
+    2300026: pool
+    2300028: tower
+    3300000: ArcDetriomphe
+    3300002: Bottom of center
+    3300004: centerbuilding
+    3300006: Chateau
+    3300008: entrance
+    3300010: garage
+    3300012: ground
+    3300014: Mon Ami Gabi
+    3300016: MontgolfierBalloon
+    3300018: old
+    3300020: old2
+    3300022: old3
+    3300024: old4
+    3300026: pool
+    3300028: tower
+    4300000: ground
+    4300002: old2
+    4300004: old
+    4300006: tower
+    4300008: Mon Ami Gabi
+    4300010: old3
+    4300012: old4
+    4300014: MontgolfierBalloon
+    4300016: ArcDetriomphe
+    4300018: pool
+    4300020: garage
+    4300022: entrance
+    4300024: Bottom of center
+    4300026: centerbuilding
+    4300028: Chateau
+    7400000: Take 001
+    9500000: //RootNode
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
