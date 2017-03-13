@@ -177,6 +177,9 @@ public class CameraController : MonoBehaviour
             }
 
             prevDistance = difference;
+        }else
+        {
+            prevDistance = 0;
         }
     }
 
