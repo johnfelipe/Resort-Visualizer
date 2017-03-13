@@ -6,7 +6,7 @@ and this project adheres to [Semantic Versioning](http://semver.org/).
 
 ---
 
-## [1.0.5.1] - 2017-03-13
+## [1.0.5] - 2017-03-13
 ### Added
 - Created a HandleOrbit function that is now called from both the Desktop and Mobile 'mouse' input.
 - Created a HandleZoom funciton that handles zooming in and out via scrolling or the new zoom slider UI element.
