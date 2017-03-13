@@ -6,6 +6,30 @@ and this project adheres to [Semantic Versioning](http://semver.org/).
 
 ---
 
+## [1.0.6] - 2017-03-13
+### Change
+- Adjusted mobile orbit sensitivity.
+- Updated the graybox model.
+
+## [1.0.5] - 2017-03-13
+### Added
+- Created a HandleOrbit function that is now called from both the Desktop and Mobile 'mouse' input.
+- Created a HandleZoom funciton that handles zooming in and out via scrolling or the new zoom slider UI element.
+- Created a MobileZoom function that gets the two touch points on mobile and gets the distance between them. When the amount changes we will zoom in or out.
+
+## [1.0.4] - 2017-03-13
+### Added
+- MobileInput function that checks to see if we have any touch input. If we do we will calculate the rotations just like we do with the desktop version. We should think about putting some of the functionality into its own function.
+- Created a new float value for mobile sensitivity.
+- Mobile deltaPosition has to be flipped with *-1.
+
+### Changed
+- Created a LimitOrbit function in the CameraController script. We refactored the limiting IF statements into its own function so we can use it for desktop and mobile input.
+- When getting the 'axis' for touch input we need to use Input.GetTouch(0).deltaPosition.x and .y if we want it to return a value like the GetAxis input value.
+
+### Removed
+- Deleted an extra building on the model.
+
 ## [1.0.3] - 2017-02-27 [HOTFIX]
 ### Changed
 - Updated graybox model.

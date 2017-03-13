@@ -169,6 +169,8 @@ MonoBehaviour:
   MouseSensitivityX: 4
   MouseSensitivityY: 4
   MouseSensitivityScroll: 10
+  MobileSensitivity: 16
+  MobileSensitivityScroll: 60
   maxZoom: 25
   minZoom: 5
 --- !u!114 &114000012550643358
