@@ -134,8 +134,8 @@ public class CameraController : MonoBehaviour
             float prevY = camPitch.rotation.eulerAngles.y;
             float prevZ = camPitch.rotation.eulerAngles.z;
 
-            yaw = Input.GetTouch(0).position.x;
-            camPitchAmount = Input.GetTouch(0).position.y * MouseSensitivityY * (invertLookY ? -1 : 1);
+            yaw = Input.GetTouch(1).position.x;
+            camPitchAmount = Input.GetTouch(1).position.y * MouseSensitivityY * (invertLookY ? -1 : 1);
             camPitchAmount = Mathf.Clamp(camPitchAmount, -10, 80);
 
             camYaw.Rotate(0, yaw * MouseSensitivityX, 0);
