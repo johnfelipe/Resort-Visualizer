@@ -28,7 +28,7 @@ public class CameraController : MonoBehaviour
     public float MouseSensitivityY = 4;
     public float MouseSensitivityScroll = 2;
     public float MobileSensitivity = 12;
-    public float MobileSensitivityScroll = 12;
+    public float MobileSensitivityScroll = 125;
 
     /// <summary>
     /// This is our max and min zoom values. It should be updated in the inspector.
