@@ -6,6 +6,11 @@ and this project adheres to [Semantic Versioning](http://semver.org/).
 
 ---
 
+## [1.0.6] - 2017-03-13
+### Change
+- Adjusted mobile orbit sensitivity.
+- Updated the graybox model.
+
 ## [1.0.5] - 2017-03-13
 ### Added
 - Created a HandleOrbit function that is now called from both the Desktop and Mobile 'mouse' input.
