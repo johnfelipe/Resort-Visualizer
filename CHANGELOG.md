@@ -6,6 +6,12 @@ and this project adheres to [Semantic Versioning](http://semver.org/).
 
 ---
 
+## [1.0.5.1] - 2017-03-13
+### Added
+- Created a HandleOrbit function that is now called from both the Desktop and Mobile 'mouse' input.
+- Created a HandleZoom funciton that handles zooming in and out via scrolling or the new zoom slider UI element.
+- Created a MobileZoom function that gets the two touch points on mobile and gets the distance between them. When the amount changes we will zoom in or out.
+
 ## [1.0.4] - 2017-03-13
 ### Added
 - MobileInput function that checks to see if we have any touch input. If we do we will calculate the rotations just like we do with the desktop version. We should think about putting some of the functionality into its own function.

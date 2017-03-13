@@ -55,6 +55,11 @@ public class CameraController : MonoBehaviour
     private bool allowCameraUpdate = false;
 
     /// <summary>
+    /// This is the previous distance between the users fingers on mobile
+    /// </summary>
+    private float prevDistance = 0;
+
+    /// <summary>
     /// In this start function we set our max and min zoom to the negative version of the public version.
     /// </summary>
     void Start()
@@ -70,6 +75,8 @@ public class CameraController : MonoBehaviour
     {
         MouseInput();
         MobileInput();
+        HandleZoom();
+        MobileZoom();
         if(allowCameraUpdate) UpdateCamera();
     }
 
@@ -92,12 +99,34 @@ public class CameraController : MonoBehaviour
     /// </summary>
     void MouseInput()
     {
-        scroll = Input.GetAxis("Mouse ScrollWheel");
-        if (scroll != 0) {
-            allowCameraUpdate = false;
-            transform.localPosition = new Vector3(transform.localPosition.x, transform.localPosition.y, transform.localPosition.z + scroll * MouseSensitivityScroll);
+        if (Input.GetButton("Fire1"))
+        {
+            yaw = Input.GetAxis("Mouse X");
+            camPitchAmount = Input.GetAxis("Mouse Y") * MouseSensitivityY * (invertLookY ? -1 : 1);
+
+            HandleOrbit(yaw, camPitchAmount);
         }
 
+        LimitOrbit();
+    }
+
+    void HandleZoom()
+    {
+        scroll = Input.GetAxis("Mouse ScrollWheel");
+        //print(scroll);
+        if (scroll != 0)
+        {
+            allowCameraUpdate = false;
+            transform.localPosition = new Vector3(transform.localPosition.x, transform.localPosition.y, transform.localPosition.z + scroll * MouseSensitivityScroll);
+            LimitZoom();
+        }
+    }
+
+    /// <summary>
+    /// This funciton will limit the minimum and maximum zoom.
+    /// </summary>
+    void LimitZoom()
+    {
         if (transform.localPosition.z > minZoom)
         {
             transform.localPosition = new Vector3(transform.localPosition.x, transform.localPosition.y, minZoom);
@@ -107,43 +136,57 @@ public class CameraController : MonoBehaviour
         {
             transform.localPosition = new Vector3(transform.localPosition.x, transform.localPosition.y, maxZoom);
         }
-
-        if (Input.GetButton("Fire1"))
-        {
-            allowCameraUpdate = false;
-            float prevY = camPitch.rotation.eulerAngles.y;
-            float prevZ = camPitch.rotation.eulerAngles.z;
-
-            yaw = Input.GetAxis("Mouse X");
-            camPitchAmount = Input.GetAxis("Mouse Y") * MouseSensitivityY * (invertLookY ? -1 : 1);
-            camPitchAmount = Mathf.Clamp(camPitchAmount, -10, 80);
-
-            camYaw.Rotate(0, yaw * MouseSensitivityX, 0);
-            camPitch.Rotate(camPitchAmount, 0, 0);
-        }
-
-        LimitOrbit();
-
-        //print("Euler Angles: " + camPitch.eulerAngles);
     }
 
     void MobileInput()
     {
         if(Input.touchCount > 0 && Input.GetTouch(0).phase == TouchPhase.Moved)
         {
-            allowCameraUpdate = false;
-            float prevY = camPitch.rotation.eulerAngles.y;
-            float prevZ = camPitch.rotation.eulerAngles.z;
-
             yaw = Input.GetTouch(0).deltaPosition.x / MobileSensitivity * -1;
             camPitchAmount = Input.GetTouch(0).deltaPosition.y / MobileSensitivity * MouseSensitivityY * (invertLookY ? -1 : 1) * -1;
-            camPitchAmount = Mathf.Clamp(camPitchAmount, -10, 80);
-
-            camYaw.Rotate(0, yaw * MouseSensitivityX, 0);
-            camPitch.Rotate(camPitchAmount, 0, 0);
+            
+            HandleOrbit(yaw, camPitchAmount);
         }
 
         LimitOrbit();
+    }
+
+
+    void MobileZoom()
+    {
+        if(Input.touchCount >= 2)
+        {
+            Vector2 point1 = Input.GetTouch(0).position;
+            Vector2 point2 = Input.GetTouch(1).position;
+
+            //Calculate the difference between the positions
+            float difference = Vector2.Distance(point1, point2);
+
+            if(prevDistance == 0)
+            {
+                prevDistance = difference;
+                return;
+            }else
+            {
+                float zoomAmount = difference - prevDistance;
+
+                allowCameraUpdate = false;
+                transform.localPosition = new Vector3(transform.localPosition.x, transform.localPosition.y, transform.localPosition.z + zoomAmount * MouseSensitivityScroll);
+                LimitZoom();
+            }
+
+            prevDistance = difference;
+        }
+    }
+
+    void HandleOrbit(float yaw, float pitchAmount)
+    {
+        allowCameraUpdate = false;
+
+        pitchAmount = Mathf.Clamp(pitchAmount, -10, 80);
+
+        camYaw.Rotate(0, yaw * MouseSensitivityX, 0);
+        camPitch.Rotate(pitchAmount, 0, 0);
     }
 
     void LimitOrbit()

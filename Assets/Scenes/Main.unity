@@ -1263,6 +1263,11 @@ Prefab:
       propertyPath: m_Name
       value: Camera System
       objectReference: {fileID: 0}
+    - target: {fileID: 114000012302272034, guid: abf53bfbe9a25f844b83559b102c7116,
+        type: 2}
+      propertyPath: zoomSlider
+      value: 
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: abf53bfbe9a25f844b83559b102c7116, type: 2}
   m_IsPrefabParent: 0
