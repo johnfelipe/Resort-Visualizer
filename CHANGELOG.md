@@ -6,6 +6,13 @@ and this project adheres to [Semantic Versioning](http://semver.org/).
 
 ---
 
+## [1.0.4] - 2017-03-13
+### Added
+- MobileInput function that checks to see if we have any touch input. If we do we will calculate the rotations just like we do with the desktop version. We should think about putting some of the functionality into its own function.
+
+### Changed
+- Created a LimitOrbit function in the CameraController script. We refactored the limiting IF statements into its own function so we can use it for desktop and mobile input.
+
 ## [1.0.3] - 2017-02-27 [HOTFIX]
 ### Changed
 - Updated graybox model.

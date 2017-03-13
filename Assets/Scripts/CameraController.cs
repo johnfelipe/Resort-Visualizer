@@ -68,6 +68,7 @@ public class CameraController : MonoBehaviour
     void Update()
     {
         MouseInput();
+        MobileInput();
         if(allowCameraUpdate) UpdateCamera();
     }
 
@@ -120,6 +121,32 @@ public class CameraController : MonoBehaviour
             camPitch.Rotate(camPitchAmount, 0, 0);
         }
 
+        LimitOrbit();
+
+        //print("Euler Angles: " + camPitch.eulerAngles);
+    }
+
+    void MobileInput()
+    {
+        if(Input.touchCount > 0)
+        {
+            allowCameraUpdate = false;
+            float prevY = camPitch.rotation.eulerAngles.y;
+            float prevZ = camPitch.rotation.eulerAngles.z;
+
+            yaw = Input.GetTouch(0).position.x;
+            camPitchAmount = Input.GetTouch(0).position.y * MouseSensitivityY * (invertLookY ? -1 : 1);
+            camPitchAmount = Mathf.Clamp(camPitchAmount, -10, 80);
+
+            camYaw.Rotate(0, yaw * MouseSensitivityX, 0);
+            camPitch.Rotate(camPitchAmount, 0, 0);
+        }
+
+        LimitOrbit();
+    }
+
+    void LimitOrbit()
+    {
         //This limits the pitch to a minimum preset angel
         if (camPitch.rotation.eulerAngles.x < 1 || camPitch.rotation.eulerAngles.x > 300)
         {
@@ -137,8 +164,6 @@ public class CameraController : MonoBehaviour
         {
             camPitch.eulerAngles = new Vector3(camPitch.rotation.eulerAngles.x, camPitch.rotation.eulerAngles.y, 0);
         }
-
-        //print("Euler Angles: " + camPitch.eulerAngles);
     }
 
     /// <summary>
