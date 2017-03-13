@@ -12,6 +12,7 @@ and this project adheres to [Semantic Versioning](http://semver.org/).
 
 ### Changed
 - Created a LimitOrbit function in the CameraController script. We refactored the limiting IF statements into its own function so we can use it for desktop and mobile input.
+- When getting the 'axis' for touch input we need to use Input.GetTouch(0).deltaPosition.x and .y if we want it to return a value like the GetAxis input value.
 
 ## [1.0.3] - 2017-02-27 [HOTFIX]
 ### Changed

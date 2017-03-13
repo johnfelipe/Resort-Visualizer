@@ -128,14 +128,14 @@ public class CameraController : MonoBehaviour
 
     void MobileInput()
     {
-        if(Input.touchCount > 0)
+        if(Input.touchCount > 0 && Input.GetTouch(0).phase == TouchPhase.Moved)
         {
             allowCameraUpdate = false;
             float prevY = camPitch.rotation.eulerAngles.y;
             float prevZ = camPitch.rotation.eulerAngles.z;
 
-            yaw = Input.GetTouch(1).position.x;
-            camPitchAmount = Input.GetTouch(1).position.y * MouseSensitivityY * (invertLookY ? -1 : 1);
+            yaw = Input.GetTouch(0).deltaPosition.x;
+            camPitchAmount = Input.GetTouch(0).deltaPosition.y * MouseSensitivityY * (invertLookY ? -1 : 1);
             camPitchAmount = Mathf.Clamp(camPitchAmount, -10, 80);
 
             camYaw.Rotate(0, yaw * MouseSensitivityX, 0);
