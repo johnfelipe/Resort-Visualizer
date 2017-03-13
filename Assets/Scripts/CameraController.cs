@@ -27,6 +27,7 @@ public class CameraController : MonoBehaviour
     public float MouseSensitivityX = 4;
     public float MouseSensitivityY = 4;
     public float MouseSensitivityScroll = 2;
+    public float MobileSensitivity = 12;
 
     /// <summary>
     /// This is our max and min zoom values. It should be updated in the inspector.
@@ -134,8 +135,8 @@ public class CameraController : MonoBehaviour
             float prevY = camPitch.rotation.eulerAngles.y;
             float prevZ = camPitch.rotation.eulerAngles.z;
 
-            yaw = Input.GetTouch(0).deltaPosition.x / 8;
-            camPitchAmount = Input.GetTouch(0).deltaPosition.y / 8 * MouseSensitivityY * (invertLookY ? -1 : 1);
+            yaw = Input.GetTouch(0).deltaPosition.x / MobileSensitivity * -1;
+            camPitchAmount = Input.GetTouch(0).deltaPosition.y / MobileSensitivity * MouseSensitivityY * (invertLookY ? -1 : 1) * -1;
             camPitchAmount = Mathf.Clamp(camPitchAmount, -10, 80);
 
             camYaw.Rotate(0, yaw * MouseSensitivityX, 0);
