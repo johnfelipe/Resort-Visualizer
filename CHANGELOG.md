@@ -6,6 +6,10 @@ and this project adheres to [Semantic Versioning](http://semver.org/).
 
 ---
 
+## [1.0.7] - 2017-03-24
+### Change
+- Updated Graybox.
+
 ## [1.0.6] - 2017-03-13
 ### Change
 - Adjusted mobile orbit sensitivity.
