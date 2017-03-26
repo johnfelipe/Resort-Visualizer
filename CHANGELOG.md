@@ -6,6 +6,34 @@ and this project adheres to [Semantic Versioning](http://semver.org/).
 
 ---
 
+## [1.1.3] - 2017-03-26
+### Added
+- Added a shader that ignores Z depth (OverlayMat). 
+	- The source code was created by: [DanSuperGP](http://answers.unity3d.com/answers/887523/view.html).
+
+### Changed
+- Updated the Camera System (Yaw) prefab to match the current settings.
+
+## [1.1.2] - 2017-03-26
+### Added
+- Updated the Icon Controller script with the following features:
+	- Must be linked to a POI object.
+	- Clicking on a marker will update the Camera Systems POI.
+
+## [1.1.1] - 2017-03-26
+### Change
+- Adjusted the following camera settings:
+	- Camera System:
+		- Lerp from 5 to 1.
+	- Main Camera:
+		- Lerp from 5 to 1.
+		- Max zoom from 25 to 50.
+		- Mouse Sensitivity Scroll from 10 to 7.
+- Updated the hierarchy.
+
+### Removed
+- Stars.
+
 ## [1.0.7] - 2017-03-24
 ### Change
 - Updated Graybox.

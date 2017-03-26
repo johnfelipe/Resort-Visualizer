@@ -41,7 +41,7 @@ GameObject:
   - component: {fileID: 4000014137799048}
   - component: {fileID: 114000012550643358}
   m_Layer: 0
-  m_Name: Yaw
+  m_Name: Camera System
   m_TagString: Camera System
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -165,13 +165,13 @@ MonoBehaviour:
   camYaw: {fileID: 4000014137799048}
   camPitch: {fileID: 4000010333030820}
   invertLookY: 1
-  lerpSpeed: 5
+  lerpSpeed: 1
   MouseSensitivityX: 4
   MouseSensitivityY: 4
-  MouseSensitivityScroll: 10
+  MouseSensitivityScroll: 7
   MobileSensitivity: 16
   MobileSensitivityScroll: 60
-  maxZoom: 25
+  maxZoom: 50
   minZoom: 5
 --- !u!114 &114000012550643358
 MonoBehaviour:
@@ -185,7 +185,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   startingLocation: {fileID: 0}
-  lerpSpeed: 5
+  lerpSpeed: 1
 --- !u!124 &124000012206211948
 Behaviour:
   m_ObjectHideFlags: 1
