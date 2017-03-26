@@ -173,6 +173,8 @@ MonoBehaviour:
   MobileSensitivityScroll: 60
   maxZoom: 50
   minZoom: 5
+  autoOrbitTimer: 60
+  orbitSpeed: 1
 --- !u!114 &114000012550643358
 MonoBehaviour:
   m_ObjectHideFlags: 1
