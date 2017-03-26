@@ -246,11 +246,21 @@ Prefab:
     - target: {fileID: 114000013709807976, guid: 8b7b146abaab0964b825ea82df617a1b,
         type: 2}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_CallState
-      value: 0
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 1000013325079132, guid: 8b7b146abaab0964b825ea82df617a1b, type: 2}
       propertyPath: m_TagString
       value: Markers
+      objectReference: {fileID: 0}
+    - target: {fileID: 114000013709807976, guid: 8b7b146abaab0964b825ea82df617a1b,
+        type: 2}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 1594191474}
+    - target: {fileID: 114000013709807976, guid: 8b7b146abaab0964b825ea82df617a1b,
+        type: 2}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: UpdatePOI
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 8b7b146abaab0964b825ea82df617a1b, type: 2}
@@ -1142,11 +1152,21 @@ Prefab:
     - target: {fileID: 114000013709807976, guid: 8b7b146abaab0964b825ea82df617a1b,
         type: 2}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_CallState
-      value: 0
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 1000013325079132, guid: 8b7b146abaab0964b825ea82df617a1b, type: 2}
       propertyPath: m_TagString
       value: Markers
+      objectReference: {fileID: 0}
+    - target: {fileID: 114000013709807976, guid: 8b7b146abaab0964b825ea82df617a1b,
+        type: 2}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 574237647}
+    - target: {fileID: 114000013709807976, guid: 8b7b146abaab0964b825ea82df617a1b,
+        type: 2}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: UpdatePOI
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 8b7b146abaab0964b825ea82df617a1b, type: 2}
@@ -1324,68 +1344,19 @@ Prefab:
       propertyPath: m_Pivot.y
       value: 0.5
       objectReference: {fileID: 0}
+    - target: {fileID: 114000013709807976, guid: 8b7b146abaab0964b825ea82df617a1b,
+        type: 2}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 1352104443}
     - target: {fileID: 114000013043665822, guid: 8b7b146abaab0964b825ea82df617a1b,
         type: 2}
       propertyPath: targetObject
       value: 
       objectReference: {fileID: 1103200435}
-    - target: {fileID: 114000013043665822, guid: 8b7b146abaab0964b825ea82df617a1b,
-        type: 2}
-      propertyPath: camYaw
-      value: 
-      objectReference: {fileID: 1103200436}
     - target: {fileID: 1000013325079132, guid: 8b7b146abaab0964b825ea82df617a1b, type: 2}
       propertyPath: m_Name
       value: Entrance Marker
-      objectReference: {fileID: 0}
-    - target: {fileID: 224000013722680670, guid: 8b7b146abaab0964b825ea82df617a1b,
-        type: 2}
-      propertyPath: m_LocalScale.x
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 224000013722680670, guid: 8b7b146abaab0964b825ea82df617a1b,
-        type: 2}
-      propertyPath: m_LocalScale.y
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 224000013722680670, guid: 8b7b146abaab0964b825ea82df617a1b,
-        type: 2}
-      propertyPath: m_LocalScale.z
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 224000011271696300, guid: 8b7b146abaab0964b825ea82df617a1b,
-        type: 2}
-      propertyPath: m_SizeDelta.x
-      value: 678
-      objectReference: {fileID: 0}
-    - target: {fileID: 224000011271696300, guid: 8b7b146abaab0964b825ea82df617a1b,
-        type: 2}
-      propertyPath: m_SizeDelta.y
-      value: 1083
-      objectReference: {fileID: 0}
-    - target: {fileID: 224000011271696300, guid: 8b7b146abaab0964b825ea82df617a1b,
-        type: 2}
-      propertyPath: m_LocalScale.x
-      value: 0.001
-      objectReference: {fileID: 0}
-    - target: {fileID: 224000011271696300, guid: 8b7b146abaab0964b825ea82df617a1b,
-        type: 2}
-      propertyPath: m_LocalScale.y
-      value: 0.001
-      objectReference: {fileID: 0}
-    - target: {fileID: 224000011271696300, guid: 8b7b146abaab0964b825ea82df617a1b,
-        type: 2}
-      propertyPath: m_LocalScale.z
-      value: 0.001
-      objectReference: {fileID: 0}
-    - target: {fileID: 114000013709807976, guid: 8b7b146abaab0964b825ea82df617a1b,
-        type: 2}
-      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_CallState
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 1000013325079132, guid: 8b7b146abaab0964b825ea82df617a1b, type: 2}
-      propertyPath: m_TagString
-      value: Markers
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 8b7b146abaab0964b825ea82df617a1b, type: 2}
@@ -1681,11 +1652,21 @@ Prefab:
     - target: {fileID: 114000013709807976, guid: 8b7b146abaab0964b825ea82df617a1b,
         type: 2}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_CallState
-      value: 0
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 1000013325079132, guid: 8b7b146abaab0964b825ea82df617a1b, type: 2}
       propertyPath: m_TagString
       value: Markers
+      objectReference: {fileID: 0}
+    - target: {fileID: 114000013709807976, guid: 8b7b146abaab0964b825ea82df617a1b,
+        type: 2}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 1362157848}
+    - target: {fileID: 114000013709807976, guid: 8b7b146abaab0964b825ea82df617a1b,
+        type: 2}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: UpdatePOI
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 8b7b146abaab0964b825ea82df617a1b, type: 2}

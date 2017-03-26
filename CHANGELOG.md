@@ -6,6 +6,12 @@ and this project adheres to [Semantic Versioning](http://semver.org/).
 
 ---
 
+## [1.1.2] - 2017-03-26
+### Added
+- Updated the Icon Controller script with the following features:
+	- Must be linked to a POI object.
+	- Clicking on a marker will update the Camera Systems POI.
+
 ## [1.1.1] - 2017-03-26
 ### Change
 - Adjusted the following camera settings:
