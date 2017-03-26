@@ -37,6 +37,14 @@ public class CameraController : MonoBehaviour
     public float minZoom = 1;
 
     /// <summary>
+    /// This is the timer for the auto orbit feature. If there is not input for this amout of time the camera system will begin to spin.
+    /// </summary>
+    public int autoOrbitTimer;
+    public float orbitSpeed;
+    private float currentOrbitTimer = 0;
+    private bool autoOrbit = false;
+
+    /// <summary>
     /// This is the private info such as the moues starting position, the pitch, yaw, and scroll amounts.
     /// </summary>
     float camPitchAmount;
@@ -78,7 +86,9 @@ public class CameraController : MonoBehaviour
         MobileInput();
         HandleZoom();
         MobileZoom();
-        if(allowCameraUpdate) UpdateCamera();
+        if (allowCameraUpdate) { UpdateCamera(); }
+        autoOrbitCountdown();
+        if (autoOrbit) { orbitCamera(); }
     }
 
     /// <summary>
@@ -120,6 +130,7 @@ public class CameraController : MonoBehaviour
             allowCameraUpdate = false;
             transform.localPosition = new Vector3(transform.localPosition.x, transform.localPosition.y, transform.localPosition.z + scroll * MouseSensitivityScroll);
             LimitZoom();
+            cancleAutoOrbit();
         }
     }
 
@@ -174,6 +185,7 @@ public class CameraController : MonoBehaviour
                 allowCameraUpdate = false;
                 transform.localPosition = new Vector3(transform.localPosition.x, transform.localPosition.y, transform.localPosition.z + zoomAmount);
                 LimitZoom();
+                cancleAutoOrbit();
             }
 
             prevDistance = difference;
@@ -191,6 +203,8 @@ public class CameraController : MonoBehaviour
 
         camYaw.Rotate(0, yaw * MouseSensitivityX, 0);
         camPitch.Rotate(pitchAmount, 0, 0);
+
+        cancleAutoOrbit();
     }
 
     void LimitOrbit()
@@ -227,6 +241,7 @@ public class CameraController : MonoBehaviour
         desiredPitch = pitch;
         desiredZoom = zoom * -1;
         allowCameraUpdate = true;
+        cancleAutoOrbit();
     }
 
     /// <summary>
@@ -238,5 +253,33 @@ public class CameraController : MonoBehaviour
         camPitch.rotation = Quaternion.Slerp(Quaternion.Euler(camPitch.rotation.eulerAngles.x, 0, 0), Quaternion.Euler(desiredPitch, 0, 0), Time.deltaTime * lerpSpeed);
         camPitch.localEulerAngles = new Vector3(camPitch.localEulerAngles.x, 0, 0);
         transform.localPosition = Vector3.Lerp(transform.localPosition, new Vector3(0, 0, desiredZoom), Time.deltaTime * lerpSpeed);
+    }
+
+    /// <summary>
+    /// This function is called when you want to cancle the auto orbit. It should be called when the user provides any type of input.
+    /// </summary>
+    private void cancleAutoOrbit()
+    {
+        autoOrbit = false;
+        currentOrbitTimer = 0;
+    }
+
+    /// <summary>
+    /// This function is called every update, it will add to the timer and check to see if we should enable the auto orbit feature.
+    /// </summary>
+    private void autoOrbitCountdown()
+    {
+        currentOrbitTimer += Time.deltaTime;
+        //print(currentOrbitTimer);
+        if (currentOrbitTimer >= autoOrbitTimer) autoOrbit = true;
+    }
+
+    /// <summary>
+    /// This function is called every update when the auto orbit feature is enabled. It spins the camera counter-clockwise based on the orbitSpeed's value.
+    /// </summary>
+    private void orbitCamera()
+    {
+        camYaw.rotation = Quaternion.Slerp(Quaternion.Euler(0, camYaw.rotation.eulerAngles.y, 0), Quaternion.Euler(0, camYaw.rotation.eulerAngles.y - 1, 0), Time.deltaTime * orbitSpeed);
+        LimitOrbit();
     }
 }

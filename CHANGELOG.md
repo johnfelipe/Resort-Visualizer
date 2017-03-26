@@ -6,6 +6,11 @@ and this project adheres to [Semantic Versioning](http://semver.org/).
 
 ---
 
+## [1.2.1] - 2017-03-26
+### Added
+- Created an auto orbit feature.
+	- If there is no input for 60 seconds the camera system will start to auto orbit.
+
 ## [1.2.0] - 2017-03-26
 ### Changed
 - Merged feat/Markers into trunk.
