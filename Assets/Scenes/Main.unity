@@ -262,6 +262,11 @@ Prefab:
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
       value: UpdatePOI
       objectReference: {fileID: 0}
+    - target: {fileID: 114000013423064960, guid: 8b7b146abaab0964b825ea82df617a1b,
+        type: 2}
+      propertyPath: m_Material
+      value: 
+      objectReference: {fileID: 2100000, guid: df95a77e3a2ef104697c7fd27f15b5ac, type: 2}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 8b7b146abaab0964b825ea82df617a1b, type: 2}
   m_IsPrefabParent: 0
@@ -788,26 +793,6 @@ Prefab:
       propertyPath: m_Name
       value: Camera System
       objectReference: {fileID: 0}
-    - target: {fileID: 114000012550643358, guid: abf53bfbe9a25f844b83559b102c7116,
-        type: 2}
-      propertyPath: lerpSpeed
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 114000012302272034, guid: abf53bfbe9a25f844b83559b102c7116,
-        type: 2}
-      propertyPath: lerpSpeed
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 114000012302272034, guid: abf53bfbe9a25f844b83559b102c7116,
-        type: 2}
-      propertyPath: maxZoom
-      value: 50
-      objectReference: {fileID: 0}
-    - target: {fileID: 114000012302272034, guid: abf53bfbe9a25f844b83559b102c7116,
-        type: 2}
-      propertyPath: MouseSensitivityScroll
-      value: 7
-      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: abf53bfbe9a25f844b83559b102c7116, type: 2}
   m_IsPrefabParent: 0
@@ -1168,6 +1153,11 @@ Prefab:
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
       value: UpdatePOI
       objectReference: {fileID: 0}
+    - target: {fileID: 114000013423064960, guid: 8b7b146abaab0964b825ea82df617a1b,
+        type: 2}
+      propertyPath: m_Material
+      value: 
+      objectReference: {fileID: 2100000, guid: df95a77e3a2ef104697c7fd27f15b5ac, type: 2}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 8b7b146abaab0964b825ea82df617a1b, type: 2}
   m_IsPrefabParent: 0
@@ -1668,6 +1658,11 @@ Prefab:
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
       value: UpdatePOI
       objectReference: {fileID: 0}
+    - target: {fileID: 114000013423064960, guid: 8b7b146abaab0964b825ea82df617a1b,
+        type: 2}
+      propertyPath: m_Material
+      value: 
+      objectReference: {fileID: 2100000, guid: df95a77e3a2ef104697c7fd27f15b5ac, type: 2}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 8b7b146abaab0964b825ea82df617a1b, type: 2}
   m_IsPrefabParent: 0

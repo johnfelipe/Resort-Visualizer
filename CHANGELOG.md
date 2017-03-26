@@ -6,6 +6,14 @@ and this project adheres to [Semantic Versioning](http://semver.org/).
 
 ---
 
+## [1.1.3] - 2017-03-26
+### Added
+- Added a shader that ignores Z depth (OverlayMat). 
+	- The source code was created by: [DanSuperGP](http://answers.unity3d.com/answers/887523/view.html).
+
+### Changed
+- Updated the Camera System (Yaw) prefab to match the current settings.
+
 ## [1.1.2] - 2017-03-26
 ### Added
 - Updated the Icon Controller script with the following features:
