@@ -6,6 +6,20 @@ and this project adheres to [Semantic Versioning](http://semver.org/).
 
 ---
 
+## [1.1.1] - 2017-03-26
+### Change
+- Adjusted the following camera settings:
+	- Camera System:
+		- Lerp from 5 to 1.
+	- Main Camera:
+		- Lerp from 5 to 1.
+		- Max zoom from 25 to 50.
+		- Mouse Sensitivity Scroll from 10 to 7.
+- Updated the hierarchy.
+
+### Removed
+- Stars.
+
 ## [1.0.7] - 2017-03-24
 ### Change
 - Updated Graybox.
