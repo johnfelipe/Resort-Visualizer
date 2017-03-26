@@ -6,6 +6,10 @@ and this project adheres to [Semantic Versioning](http://semver.org/).
 
 ---
 
+## [1.2.0] - 2017-03-26
+### Changed
+- Merged feat/Markers into trunk.
+
 ## [1.1.3] - 2017-03-26
 ### Added
 - Added a shader that ignores Z depth (OverlayMat). 
