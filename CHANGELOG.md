@@ -6,6 +6,10 @@ and this project adheres to [Semantic Versioning](http://semver.org/).
 
 ---
 
+## [1.3.1] - 2017-03-27
+### Changed
+- Updated splash screen with a render of the model.
+
 ## [1.3.0] - 2017-03-26
 ### Changed
 - Merged feat/auto-Orbit into trunk.
