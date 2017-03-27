@@ -6,6 +6,11 @@ and this project adheres to [Semantic Versioning](http://semver.org/).
 
 ---
 
+## [1.3.3] - 2017-03-27
+### Changed
+- Adjusted the WebGL settings.
+- Reverted the splash screen to 1.3.1.
+
 ## [1.3.2] - 2017-03-27
 ### Added
 - Fadeing script that fades the program in from black.
