@@ -6,6 +6,13 @@ and this project adheres to [Semantic Versioning](http://semver.org/).
 
 ---
 
+## [1.3.2] - 2017-03-27
+### Added
+- Fadeing script that fades the program in from black.
+
+### Changed
+- Changed splash screen to have FSU and Pillar Workshop logos.
+
 ## [1.3.1] - 2017-03-27
 ### Changed
 - Updated splash screen with a render of the model.

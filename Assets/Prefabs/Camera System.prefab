@@ -23,6 +23,7 @@ GameObject:
   - component: {fileID: 92000010347995280}
   - component: {fileID: 124000012206211948}
   - component: {fileID: 81000012424089016}
+  - component: {fileID: 114183616835811426}
   - component: {fileID: 114000012302272034}
   m_Layer: 0
   m_Name: Main Camera
@@ -188,6 +189,19 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   startingLocation: {fileID: 0}
   lerpSpeed: 1
+--- !u!114 &114183616835811426
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1000010047270226}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8fa12fd0b69e4704aa5cf246a9deb8c1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  fadeOutTexture: {fileID: 0}
+  fadeSpeed: 0.25
 --- !u!124 &124000012206211948
 Behaviour:
   m_ObjectHideFlags: 1
