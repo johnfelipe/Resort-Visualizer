@@ -6,6 +6,10 @@ and this project adheres to [Semantic Versioning](http://semver.org/).
 
 ---
 
+## [1.4.0] - 2017-03-27
+### Changed
+- Merged feat/UXD into trunk.
+
 ## [1.3.4] - 2017-03-27
 ### Added
 - Created a Manager object that stores all the public variable references. Instead of searching through all the objects to adjust settings you can update everything through one object.
