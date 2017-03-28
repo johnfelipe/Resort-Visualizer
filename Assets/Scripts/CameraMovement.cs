@@ -10,7 +10,7 @@ public class CameraMovement : MonoBehaviour
     /// <summary>
     /// This is the starting location and the target location and camera settings for our Camera System.
     /// </summary>
-    public GameObject startingLocation;
+    private GameObject startingLocation;
 
     /// <summary>
     /// This is the targetLocation that we want to Lerp to.
@@ -20,7 +20,9 @@ public class CameraMovement : MonoBehaviour
     /// <summary>
     /// This is the speed of our lerp.
     /// </summary>
-    public float lerpSpeed = 5;
+    private float lerpSpeed;
+
+    private Manager manager;
 
     /// <summary>
     /// In this Start funciton we check to see if our starting locaiton has a POIController script, if it does we will store the component
@@ -32,6 +34,15 @@ public class CameraMovement : MonoBehaviour
     /// </summary>
     void Start()
     {
+
+        manager = GameObject.FindGameObjectWithTag("Manager").GetComponent<Manager>();
+        if (manager == null) print("The Manager object is missing or broken!");
+        else
+        {
+            startingLocation = manager.startingPointOfIntrest;
+            lerpSpeed = manager.focusMovementSpeed;
+        }
+
         //Check to see if our starting position is a PoI object.
         if (startingLocation.GetComponent<POIController>() != null)
         {

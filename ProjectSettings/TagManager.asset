@@ -8,6 +8,7 @@ TagManager:
   - Point of Interest
   - POI Button
   - Markers
+  - Manager
   layers:
   - Default
   - TransparentFX

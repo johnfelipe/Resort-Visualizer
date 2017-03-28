@@ -14,33 +14,33 @@ public class CameraController : MonoBehaviour
     /// </summary>
     public Transform camYaw;
     public Transform camPitch;
-    public bool invertLookY = true;
+    private bool invertLookY = true;
 
     /// <summary>
     /// lerpSpeed is the multiplier for deltaTime. 
     /// </summary>
-    public float lerpSpeed;
+    private float lerpSpeed;
 
     /// <summary>
     /// This is the public sensitivity info. It should be updated in the inspector.
     /// </summary>
-    public float MouseSensitivityX = 4;
-    public float MouseSensitivityY = 4;
-    public float MouseSensitivityScroll = 2;
-    public float MobileSensitivity = 12;
-    public float MobileSensitivityScroll = 60;
+    private float MouseSensitivityX = 4;
+    private float MouseSensitivityY = 4;
+    private float MouseSensitivityScroll = 2;
+    private float MobileSensitivity = 12;
+    private float MobileSensitivityScroll = 60;
 
     /// <summary>
     /// This is our max and min zoom values. It should be updated in the inspector.
     /// </summary>
-    public float maxZoom = 20;
-    public float minZoom = 1;
+    private float maxZoom = 20;
+    private float minZoom = 1;
 
     /// <summary>
     /// This is the timer for the auto orbit feature. If there is not input for this amout of time the camera system will begin to spin.
     /// </summary>
-    public int autoOrbitTimer;
-    public float orbitSpeed;
+    private float autoOrbitTimer;
+    private float orbitSpeed;
     private float currentOrbitTimer = 0;
     private bool autoOrbit = false;
 
@@ -68,11 +68,32 @@ public class CameraController : MonoBehaviour
     /// </summary>
     private float prevDistance = 0;
 
+    private Manager manager;
+
     /// <summary>
     /// In this start function we set our max and min zoom to the negative version of the public version.
     /// </summary>
     void Start()
     {
+
+        manager = GameObject.FindGameObjectWithTag("Manager").GetComponent<Manager>();
+        if (manager == null) print("The Manager object is missing or broken!");
+        else
+        {
+            invertLookY = manager.invertInput;
+            lerpSpeed = manager.cameraRotateSpeed;
+            MouseSensitivityX = manager.mouseSensitivityX;
+            MouseSensitivityY = manager.mouseSensitivityY;
+            MouseSensitivityScroll = manager.scrollSensitivity;
+            MobileSensitivity = manager.mobileSensitivity;
+            MobileSensitivityScroll = manager.mobileSensitivityZoom;
+            maxZoom = manager.maxZoom;
+            minZoom = manager.minZoom;
+            autoOrbitTimer = manager.autoOrbitTimout;
+            orbitSpeed = manager.autoOrbitSpeed;
+        }
+
+
         maxZoom *= -1;
         minZoom *= -1;
     }
