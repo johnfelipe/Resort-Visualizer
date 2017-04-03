@@ -3,6 +3,8 @@ using System.Collections;
 
 /// <summary>
 /// The IconController script rotates the Marker objects to always face the camera.
+/// 
+/// Markers can also be clicked. When activated they will send the user to the corresponding POI object.
 /// </summary>
 public class IconController : MonoBehaviour
 {
@@ -22,6 +24,7 @@ public class IconController : MonoBehaviour
     /// </summary>
     Vector3 targetPoint;
     Quaternion targetRotation;
+
 
     /// <summary>
     /// In this Update method we set our target point to a new Vector3 based on our target objects x, y, and z position minus our icons transform position

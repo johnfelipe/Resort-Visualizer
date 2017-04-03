@@ -6,6 +6,101 @@ and this project adheres to [Semantic Versioning](http://semver.org/).
 
 ---
 
+## [2.0.0] - 2017-04-03 [RELEASE]
+
+## [1.4.0] - 2017-03-27
+### Changed
+- Merged feat/UXD into trunk.
+
+## [1.3.4] - 2017-03-27
+### Added
+- Created a Manager object that stores all the public variable references. Instead of searching through all the objects to adjust settings you can update everything through one object.
+
+## [1.3.3] - 2017-03-27
+### Changed
+- Adjusted the WebGL settings.
+- Reverted the splash screen to 1.3.1.
+
+## [1.3.2] - 2017-03-27
+### Added
+- Fadeing script that fades the program in from black.
+
+### Changed
+- Changed splash screen to have FSU and Pillar Workshop logos.
+
+## [1.3.1] - 2017-03-27
+### Changed
+- Updated splash screen with a render of the model.
+
+## [1.3.0] - 2017-03-26
+### Changed
+- Merged feat/auto-Orbit into trunk.
+
+## [1.2.1] - 2017-03-26
+### Added
+- Created an auto orbit feature.
+	- If there is no input for 60 seconds the camera system will start to auto orbit.
+
+## [1.2.0] - 2017-03-26
+### Changed
+- Merged feat/Markers into trunk.
+
+## [1.1.3] - 2017-03-26
+### Added
+- Added a shader that ignores Z depth (OverlayMat). 
+	- The source code was created by: [DanSuperGP](http://answers.unity3d.com/answers/887523/view.html).
+
+### Changed
+- Updated the Camera System (Yaw) prefab to match the current settings.
+
+## [1.1.2] - 2017-03-26
+### Added
+- Updated the Icon Controller script with the following features:
+	- Must be linked to a POI object.
+	- Clicking on a marker will update the Camera Systems POI.
+
+## [1.1.1] - 2017-03-26
+### Change
+- Adjusted the following camera settings:
+	- Camera System:
+		- Lerp from 5 to 1.
+	- Main Camera:
+		- Lerp from 5 to 1.
+		- Max zoom from 25 to 50.
+		- Mouse Sensitivity Scroll from 10 to 7.
+- Updated the hierarchy.
+
+### Removed
+- Stars.
+
+## [1.0.7] - 2017-03-24
+### Change
+- Updated Graybox.
+
+## [1.0.6] - 2017-03-13
+### Change
+- Adjusted mobile orbit sensitivity.
+- Updated the graybox model.
+
+## [1.0.5] - 2017-03-13
+### Added
+- Created a HandleOrbit function that is now called from both the Desktop and Mobile 'mouse' input.
+- Created a HandleZoom funciton that handles zooming in and out via scrolling or the new zoom slider UI element.
+- Created a MobileZoom function that gets the two touch points on mobile and gets the distance between them. When the amount changes we will zoom in or out.
+
+## [1.0.4] - 2017-03-13
+### Added
+- MobileInput function that checks to see if we have any touch input. If we do we will calculate the rotations just like we do with the desktop version. We should think about putting some of the functionality into its own function.
+- Created a new float value for mobile sensitivity.
+- Mobile deltaPosition has to be flipped with *-1.
+
+### Changed
+- Created a LimitOrbit function in the CameraController script. We refactored the limiting IF statements into its own function so we can use it for desktop and mobile input.
+- When getting the 'axis' for touch input we need to use Input.GetTouch(0).deltaPosition.x and .y if we want it to return a value like the GetAxis input value.
+
+### Removed
+- Deleted an extra building on the model.
+
 ## [1.0.3] - 2017-02-27 [HOTFIX]
 ### Changed
 - Updated graybox model.
