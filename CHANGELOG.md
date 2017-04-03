@@ -6,6 +6,8 @@ and this project adheres to [Semantic Versioning](http://semver.org/).
 
 ---
 
+## [2.0.0] - 2017-04-03 [RELEASE]
+
 ## [1.4.0] - 2017-03-27
 ### Changed
 - Merged feat/UXD into trunk.
