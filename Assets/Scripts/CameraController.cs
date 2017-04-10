@@ -300,7 +300,7 @@ public class CameraController : MonoBehaviour
     /// </summary>
     private void orbitCamera()
     {
-        camYaw.rotation = Quaternion.Slerp(Quaternion.Euler(0, camYaw.rotation.eulerAngles.y, 0), Quaternion.Euler(0, camYaw.rotation.eulerAngles.y - 1, 0), Time.deltaTime * orbitSpeed);
-        LimitOrbit();
+        allowCameraUpdate = false;
+        camYaw.rotation = Quaternion.Slerp(Quaternion.Euler(camYaw.rotation.eulerAngles.x, camYaw.rotation.eulerAngles.y, camYaw.rotation.eulerAngles.z), Quaternion.Euler(camYaw.rotation.eulerAngles.x, camYaw.rotation.eulerAngles.y - orbitSpeed, camYaw.rotation.eulerAngles.z), Time.deltaTime);
     }
 }

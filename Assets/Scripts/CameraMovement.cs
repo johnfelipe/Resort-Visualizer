@@ -87,6 +87,8 @@ public class CameraMovement : MonoBehaviour
             targetLocation = target.transform.position;
 
             GetComponentInChildren<CameraController>().MoveToPosition(temp.desiredYaw, temp.desiredPitch, temp.desiredZoom);
+
+            manager.ResetCarousel(target);
         }
         else
         {

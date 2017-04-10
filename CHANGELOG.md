@@ -6,6 +6,18 @@ and this project adheres to [Semantic Versioning](http://semver.org/).
 
 ---
 
+## [2.0.1] - 2017-04-10
+### Added
+- Manager object now gets and stores references to all the POI objects.
+- Carousel timer is set to 20s.
+- By default the carousel will count down and will move through all the POI objects.
+- ResetCarousel is called when the user selects their own POI to move to. We update the currentPOI to reflect their choice.
+
+### Changed
+- Changed auto orbit timer from 15s to 5s.
+- We now cancle the camera system movement update when the auto orbit begins.
+- The MoveCamera function now resets the carousel countdown timer.
+
 ## [2.0.0] - 2017-04-03 [RELEASE]
 
 ## [1.4.0] - 2017-03-27
