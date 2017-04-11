@@ -12,6 +12,8 @@ public class DaylightController : MonoBehaviour {
 
     private Light sun;
 
+    public GameObject stars;
+
     // Use this for initialization
     void Start () {
         manager = GameObject.FindGameObjectWithTag("Manager").GetComponent<Manager>();
@@ -31,12 +33,14 @@ public class DaylightController : MonoBehaviour {
             transform.rotation = Quaternion.Euler(new Vector3(-50, transform.rotation.eulerAngles.y, transform.rotation.eulerAngles.z));
             sun.intensity = 0;
             isDay = false;
+            stars.SetActive(true);
             return;
         }else
         {
             transform.rotation = Quaternion.Euler(new Vector3(50, transform.rotation.eulerAngles.y, transform.rotation.eulerAngles.z));
             sun.intensity = sunIntensity;
             isDay = true;
+            stars.SetActive(false);
             return;
         }
     }

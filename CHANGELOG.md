@@ -6,6 +6,11 @@ and this project adheres to [Semantic Versioning](http://semver.org/).
 
 ---
 
+## [2.0.3] - 2017-04-11
+### Changed
+- Updated Stars particle system.
+- The Day/Night toggle now enables/disables the stars.
+
 ## [2.0.2] - 2017-04-11
 ### Added
 - Daylight intensity value to the Manager object.
