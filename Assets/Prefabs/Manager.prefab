@@ -66,4 +66,4 @@ MonoBehaviour:
   autoOrbitSpeed: 1
   introFadingSpeed: 0.25
   carouselTimer: 20
-  test3: 0
+  daylightIntensity: 1

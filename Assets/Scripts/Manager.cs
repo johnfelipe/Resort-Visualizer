@@ -32,7 +32,7 @@ public class Manager : MonoBehaviour {
     public float carouselTimer;
 
     [Header("Daylight System Settings")]
-    public bool test3;
+    public float daylightIntensity;
 
     /// <summary>
     /// This is the list of Point of Interest objects, it is pouplated at runtime.
