@@ -6,6 +6,11 @@ and this project adheres to [Semantic Versioning](http://semver.org/).
 
 ---
 
+## [2.0.2] - 2017-04-11
+### Added
+- Daylight intensity value to the Manager object.
+- Day/Night toggle to the HUD.
+
 ## [2.0.1] - 2017-04-10
 ### Added
 - Manager object now gets and stores references to all the POI objects.
