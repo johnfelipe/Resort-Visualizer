@@ -6,6 +6,15 @@ and this project adheres to [Semantic Versioning](http://semver.org/).
 
 ---
 
+## [2.1.1] - 2017-04-24
+### Added
+- Texture folder to hold all the unwrap texture maps.
+- Created the materials for the center building.
+- Began to apply the materials to the model.
+
+### Changed
+- Updated the model.
+
 ## [2.0.3] - 2017-04-11
 ### Changed
 - Updated Stars particle system.
