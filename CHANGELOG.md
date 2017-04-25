@@ -6,6 +6,10 @@ and this project adheres to [Semantic Versioning](http://semver.org/).
 
 ---
 
+## [2.2.1] - 2017-04-25
+### Changed
+- Added textures to most of the models.
+
 ## [2.1.1] - 2017-04-24
 ### Added
 - Texture folder to hold all the unwrap texture maps.

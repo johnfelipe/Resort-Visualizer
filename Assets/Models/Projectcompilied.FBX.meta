@@ -731,6 +731,10 @@ ModelImporter:
     101446: WindowArch004
     101448: WindowArch2
     101450: WindowArch3
+    101452: ArcDetriomphe
+    101454: MontgolfierBalloonw
+    101456: Thecover
+    101458: Wege
     400000: ArcDetriompheW
     400002: Back part of  the roof004
     400004: BigWindow001
@@ -1457,6 +1461,10 @@ ModelImporter:
     401446: WindowArch004
     401448: WindowArch2
     401450: WindowArch3
+    401452: ArcDetriomphe
+    401454: MontgolfierBalloonw
+    401456: Thecover
+    401458: Wege
     2300000: ArcDetriompheW
     2300002: Back part of  the roof004
     2300004: BigWindow001
@@ -2144,6 +2152,10 @@ ModelImporter:
     2301368: WindowArch004
     2301370: WindowArch2
     2301372: WindowArch3
+    2301374: ArcDetriomphe
+    2301376: MontgolfierBalloonw
+    2301378: Thecover
+    2301380: Wege
     3300000: ArcDetriompheW
     3300002: Back part of  the roof004
     3300004: BigWindow001
@@ -2831,6 +2843,10 @@ ModelImporter:
     3301368: WindowArch004
     3301370: WindowArch2
     3301372: WindowArch3
+    3301374: ArcDetriomphe
+    3301376: MontgolfierBalloonw
+    3301378: Thecover
+    3301380: Wege
     4300000: groundW
     4300002: ArcDetriompheW
     4300004: MontgolfierBalloon
@@ -3518,6 +3534,10 @@ ModelImporter:
     4301368: Box0022
     4301370: Box0012
     4301372: garage2
+    4301374: MontgolfierBalloonw
+    4301376: Wege
+    4301378: Thecover
+    4301380: ArcDetriomphe
     7400000: Take 001
     9500000: //RootNode
   materials:
