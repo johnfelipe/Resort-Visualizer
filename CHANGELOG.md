@@ -6,6 +6,19 @@ and this project adheres to [Semantic Versioning](http://semver.org/).
 
 ---
 
+## [2.3.2] - 2017-04-27
+### Added
+- New POI objects for the new markers.
+- Casino, Tower, Drink, Food, and Hotel markers and POI objects.
+
+### Changed
+- New marker visuals.
+- Moved the Starting Point POI, it's now used as the Hotel POI.
+
+### Removed
+- Arch POI and Marker.
+- Entrance POI and Marker.
+
 ## [2.3.1] - 2017-04-27
 ### Added
 - Sliced up the UI elements.
