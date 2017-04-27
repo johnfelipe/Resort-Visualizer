@@ -65,5 +65,11 @@ MonoBehaviour:
   autoOrbitTimout: 5
   autoOrbitSpeed: 1
   introFadingSpeed: 0.25
+  primaryColor: {r: 0.50980395, g: 0, b: 0.14117648, a: 1}
+  secondaryColor: {r: 0.047058824, g: 0.15294118, b: 0.3137255, a: 1}
+  textColor: {r: 0.9882353, g: 0.95686275, b: 0.8784314, a: 1}
+  hoverColor: {r: 0.44117647, g: 0.0064878957, b: 0.12686324, a: 1}
+  activeColor: {r: 0.42647058, g: 0.043901373, b: 0.14984365, a: 1}
+  disabledColor: {r: 0.45588237, g: 0.3419118, b: 0.37347287, a: 1}
   carouselTimer: 20
   daylightIntensity: 1

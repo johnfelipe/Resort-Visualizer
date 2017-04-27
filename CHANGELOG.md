@@ -19,6 +19,10 @@ and this project adheres to [Semantic Versioning](http://semver.org/).
 ### Changed
 - Updated the model.
 
+## [2.1.1] - 2017-04-11
+### Added
+- HudButton script to change a buttons color block to use the Managers colors.
+
 ## [2.0.3] - 2017-04-11
 ### Changed
 - Updated Stars particle system.
