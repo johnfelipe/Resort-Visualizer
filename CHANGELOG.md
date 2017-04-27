@@ -6,6 +6,12 @@ and this project adheres to [Semantic Versioning](http://semver.org/).
 
 ---
 
+## [2.3.1] - 2017-04-27
+### Added
+- Sliced up the UI elements.
+- Created the base UI.
+- Created the settings menu.
+
 ## [2.2.1] - 2017-04-25
 ### Changed
 - Added textures to most of the models.

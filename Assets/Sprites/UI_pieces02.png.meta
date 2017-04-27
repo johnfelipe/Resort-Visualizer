@@ -1,0 +1,302 @@
+fileFormatVersion: 2
+guid: bee53ce2e34e2914f88527dd33bd6229
+timeCreated: 1493313334
+licenseType: Free
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: UI_pieces02_0
+    21300002: UI_pieces02_1
+    21300004: UI_pieces02_2
+    21300006: UI_pieces02_14
+    21300008: UI_pieces02_28
+    21300010: UI_pieces02_29
+    21300012: UI_pieces02_30
+    21300014: UI_pieces02_31
+    21300016: UI_pieces02_32
+    21300018: UI_pieces02_33
+    21300020: UI_pieces02_34
+    21300022: UI_pieces02_35
+    21300024: UI_pieces02_36
+    21300026: UI_pieces02_37
+    21300028: UI_pieces02_38
+  serializedVersion: 4
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    filterMode: -1
+    aniso: -1
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  platformSettings:
+  - buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+  - buildTarget: Standalone
+    maxTextureSize: 2048
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+  - buildTarget: Android
+    maxTextureSize: 2048
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+  - buildTarget: WebGL
+    maxTextureSize: 2048
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: UI_pieces02_0
+      rect:
+        serializedVersion: 2
+        x: 158
+        y: 3682
+        width: 1048
+        height: 1160
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: UI_pieces02_1
+      rect:
+        serializedVersion: 2
+        x: 1746
+        y: 3682
+        width: 1244
+        height: 1164
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 250, y: 250, z: 250, w: 250}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: UI_pieces02_2
+      rect:
+        serializedVersion: 2
+        x: 3583
+        y: 3666
+        width: 1918
+        height: 1275
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: UI_pieces02_14
+      rect:
+        serializedVersion: 2
+        x: 6468
+        y: 3743
+        width: 1523
+        height: 1093
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: UI_pieces02_28
+      rect:
+        serializedVersion: 2
+        x: 110
+        y: 2834
+        width: 1208
+        height: 560
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: UI_pieces02_29
+      rect:
+        serializedVersion: 2
+        x: 2114
+        y: 2390
+        width: 844
+        height: 916
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: UI_pieces02_30
+      rect:
+        serializedVersion: 2
+        x: 3738
+        y: 2516
+        width: 1888
+        height: 758
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 100, y: 100, z: 100, w: 100}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: UI_pieces02_31
+      rect:
+        serializedVersion: 2
+        x: 6670
+        y: 2334
+        width: 996
+        height: 1084
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 250, y: 250, z: 250, w: 250}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: UI_pieces02_32
+      rect:
+        serializedVersion: 2
+        x: 134
+        y: 1338
+        width: 1208
+        height: 560
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: UI_pieces02_33
+      rect:
+        serializedVersion: 2
+        x: 2010
+        y: 1154
+        width: 1000
+        height: 1084
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 250, y: 250, z: 250, w: 250}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: UI_pieces02_34
+      rect:
+        serializedVersion: 2
+        x: 4187
+        y: 1162
+        width: 999
+        height: 1080
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 250, y: 250, z: 250, w: 250}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: UI_pieces02_35
+      rect:
+        serializedVersion: 2
+        x: 230
+        y: 10
+        width: 996
+        height: 1080
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 250, y: 250, z: 250, w: 250}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: UI_pieces02_36
+      rect:
+        serializedVersion: 2
+        x: 2010
+        y: 10
+        width: 1000
+        height: 1080
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 250, y: 250, z: 250, w: 250}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: UI_pieces02_37
+      rect:
+        serializedVersion: 2
+        x: 4162
+        y: 10
+        width: 998
+        height: 1080
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 250, y: 250, z: 250, w: 250}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: UI_pieces02_38
+      rect:
+        serializedVersion: 2
+        x: 6714
+        y: 10
+        width: 1000
+        height: 1080
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 250, y: 250, z: 250, w: 250}
+      outline: []
+      tessellationDetail: 0
+    outline: []
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
