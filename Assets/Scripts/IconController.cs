@@ -36,5 +36,6 @@ public class IconController : MonoBehaviour
         targetPoint = new Vector3(targetObject.transform.position.x, targetObject.transform.position.y, targetObject.transform.position.z) - transform.position;
         targetRotation = Quaternion.LookRotation(targetPoint, Vector3.up);
         transform.rotation = Quaternion.Slerp(transform.rotation, targetRotation, Time.deltaTime * speed);
+        transform.rotation = Quaternion.Euler(0, transform.eulerAngles.y, 0);
     }
 }

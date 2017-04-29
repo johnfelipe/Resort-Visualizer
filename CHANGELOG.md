@@ -6,6 +6,14 @@ and this project adheres to [Semantic Versioning](http://semver.org/).
 
 ---
 
+## [2.3.3] - 2017-04-29
+### Added
+- Finished adding all the materials.
+
+### Changed
+- Markers no longer rotate on the X or Z axis.
+- Updated the resorts model.
+
 ## [2.3.2] - 2017-04-27
 ### Added
 - New POI objects for the new markers.
