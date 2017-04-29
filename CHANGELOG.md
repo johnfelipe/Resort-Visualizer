@@ -6,6 +6,12 @@ and this project adheres to [Semantic Versioning](http://semver.org/).
 
 ---
 
+## [2.4.1] - 2017-04-29
+### Added
+- Can open/close the settings menu.
+- The toggle buttons now change sprites when clicked.
+- Set up the Day/Night script to work with the new HUD buttons.
+
 ## [2.3.3] - 2017-04-29
 ### Added
 - Finished adding all the materials.
