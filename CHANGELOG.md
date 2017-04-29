@@ -6,6 +6,10 @@ and this project adheres to [Semantic Versioning](http://semver.org/).
 
 ---
 
+## [2.4.2] - 2017-04-29
+### Added
+- The Reset View button sends the camera system back to the starting point.
+
 ## [2.4.1] - 2017-04-29
 ### Added
 - Can open/close the settings menu.

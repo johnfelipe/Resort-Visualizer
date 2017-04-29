@@ -4210,6 +4210,11 @@ Prefab:
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.size
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 114507884974193118, guid: 7f8ec75beb9eb7746b35d09eb0f79e89,
+        type: 2}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.size
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 224571792177781920, guid: 7f8ec75beb9eb7746b35d09eb0f79e89,
         type: 2}
       propertyPath: m_LocalPosition.x
@@ -4450,6 +4455,31 @@ Prefab:
       value: ToggleDaylight
       objectReference: {fileID: 0}
     - target: {fileID: 114049243333201152, guid: 7f8ec75beb9eb7746b35d09eb0f79e89,
+        type: 2}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
+      value: UnityEngine.Object, UnityEngine
+      objectReference: {fileID: 0}
+    - target: {fileID: 114507884974193118, guid: 7f8ec75beb9eb7746b35d09eb0f79e89,
+        type: 2}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Mode
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 114507884974193118, guid: 7f8ec75beb9eb7746b35d09eb0f79e89,
+        type: 2}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_CallState
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 114507884974193118, guid: 7f8ec75beb9eb7746b35d09eb0f79e89,
+        type: 2}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 1175581282}
+    - target: {fileID: 114507884974193118, guid: 7f8ec75beb9eb7746b35d09eb0f79e89,
+        type: 2}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: UpdatePOI
+      objectReference: {fileID: 0}
+    - target: {fileID: 114507884974193118, guid: 7f8ec75beb9eb7746b35d09eb0f79e89,
         type: 2}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
       value: UnityEngine.Object, UnityEngine
