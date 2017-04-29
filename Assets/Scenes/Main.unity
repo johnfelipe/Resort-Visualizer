@@ -2551,6 +2551,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   optionsMenu: {fileID: 1823199122}
   sun: {fileID: 0}
+  markers: {fileID: 0}
+  manager: {fileID: 0}
   switchOn: {fileID: 0}
   switchOff: {fileID: 0}
 --- !u!1001 &304269700
@@ -2983,6 +2985,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   optionsMenu: {fileID: 0}
   sun: {fileID: 0}
+  markers: {fileID: 0}
+  manager: {fileID: 1931827101}
   switchOn: {fileID: 21300016, guid: bee53ce2e34e2914f88527dd33bd6229, type: 3}
   switchOff: {fileID: 21300008, guid: bee53ce2e34e2914f88527dd33bd6229, type: 3}
 --- !u!1 &535149846
@@ -3964,6 +3968,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   optionsMenu: {fileID: 0}
   sun: {fileID: 0}
+  markers: {fileID: 2090146996}
+  manager: {fileID: 0}
   switchOn: {fileID: 21300016, guid: bee53ce2e34e2914f88527dd33bd6229, type: 3}
   switchOff: {fileID: 21300008, guid: bee53ce2e34e2914f88527dd33bd6229, type: 3}
 --- !u!1 &1591116102
@@ -4510,6 +4516,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   optionsMenu: {fileID: 1823199122}
   sun: {fileID: 0}
+  markers: {fileID: 0}
+  manager: {fileID: 0}
   switchOn: {fileID: 0}
   switchOff: {fileID: 0}
 --- !u!1001 &1892856954
@@ -4582,6 +4590,11 @@ Prefab:
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: f54be1e422a53284388aec4705113087, type: 2}
   m_IsPrefabParent: 0
+--- !u!1 &1931827101 stripped
+GameObject:
+  m_PrefabParentObject: {fileID: 1153257911285324, guid: 29a5dd2f3aadc1b4180a8795ab11341d,
+    type: 2}
+  m_PrefabInternal: {fileID: 1470340810}
 --- !u!1001 &1939576558
 Prefab:
   m_ObjectHideFlags: 0
@@ -5250,6 +5263,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   optionsMenu: {fileID: 0}
   sun: {fileID: 1106291726}
+  markers: {fileID: 0}
+  manager: {fileID: 0}
   switchOn: {fileID: 21300016, guid: bee53ce2e34e2914f88527dd33bd6229, type: 3}
   switchOff: {fileID: 21300008, guid: bee53ce2e34e2914f88527dd33bd6229, type: 3}
 --- !u!1 &2107042249

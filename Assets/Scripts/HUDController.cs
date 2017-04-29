@@ -19,6 +19,16 @@ public class HUDController : MonoBehaviour {
     public GameObject sun;
 
     /// <summary>
+    /// Public reference to the markers container
+    /// </summary>
+    public GameObject markers;
+
+    /// <summary>
+    /// Public reference to the markers container
+    /// </summary>
+    public GameObject manager;
+
+    /// <summary>
     /// Public references to the on/off switch sprites
     /// </summary>
     public Sprite switchOn;
@@ -69,11 +79,13 @@ public class HUDController : MonoBehaviour {
         {
             isIcons = false;
             GetComponent<Image>().sprite = switchOff;
+            markers.SetActive(false);
         }
         else
         {
             isIcons = true;
             GetComponent<Image>().sprite = switchOn;
+            markers.SetActive(true);
         }
     }
 
@@ -86,10 +98,12 @@ public class HUDController : MonoBehaviour {
         {
             isSlideView = false;
             GetComponent<Image>().sprite = switchOff;
+            manager.GetComponent<Manager>().ToggleCarousel(false);
         }else
         {
             isSlideView = true;
             GetComponent<Image>().sprite = switchOn;
+            manager.GetComponent<Manager>().ToggleCarousel(true);
         }
     }
 
