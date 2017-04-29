@@ -26,6 +26,12 @@ public class Manager : MonoBehaviour {
     [Header("HUD Settings")]
     [Tooltip("Fade-in speed")]
     public float introFadingSpeed;
+    public Color primaryColor;
+    public Color secondaryColor;
+    public Color textColor;
+    public Color hoverColor;
+    public Color activeColor;
+    public Color disabledColor;
 
     [Header("Carousel Settings")]
     [Tooltip("This is the amount of time the Camera System will spend at each POI")]
