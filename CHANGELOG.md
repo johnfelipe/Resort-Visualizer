@@ -6,6 +6,11 @@ and this project adheres to [Semantic Versioning](http://semver.org/).
 
 ---
 
+## [2.4.4] - 2017-04-29
+### Added
+- HUD color pickers to the Manager object.
+- Buttons and Images use the colors set by the Manager object.
+
 ## [2.4.3] - 2017-04-29
 ### Added
 - Functionality for the Slide and Icon toggles.
