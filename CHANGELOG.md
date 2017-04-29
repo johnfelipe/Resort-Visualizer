@@ -6,6 +6,10 @@ and this project adheres to [Semantic Versioning](http://semver.org/).
 
 ---
 
+## [2.5.0] - 2017-04-29
+### Added
+- Merged HUD feature into the trunk.
+
 ## [2.4.4] - 2017-04-29
 ### Added
 - HUD color pickers to the Manager object.
