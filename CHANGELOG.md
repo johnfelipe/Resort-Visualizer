@@ -6,6 +6,17 @@ and this project adheres to [Semantic Versioning](http://semver.org/).
 
 ---
 
+## [2.5.1] - 2017-04-29
+### Added
+- Ground plane.
+- Box to hide hole in the model.
+- PopupController script to manage the HUDs popup menu.
+
+### Changed
+- Updated all the POI objects.
+- Linked the buttons in the popup menu to POI objects.
+- Updated the popup menus buttons to the versions with images.
+
 ## [2.5.0] - 2017-04-29
 ### Added
 - Merged HUD feature into the trunk.
